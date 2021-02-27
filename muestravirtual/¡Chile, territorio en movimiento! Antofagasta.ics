@@ -1,0 +1,39 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ical.marudot.com//iCal Event Maker
+CALSCALE:GREGORIAN
+BEGIN:VTIMEZONE
+TZID:America/Asuncion
+TZURL:http://tzurl.org/zoneinfo-outlook/America/Asuncion
+X-LIC-LOCATION:America/Asuncion
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0300
+TZNAME:-03
+DTSTART:19701004T000000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0300
+TZOFFSETTO:-0400
+TZNAME:-04
+DTSTART:19700322T000000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=4SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20210104T170749Z
+UID:20210104T170749Z-1256462828@marudot.com
+DTSTART;VALUE=DATE:20210412
+RRULE:FREQ=DAILY;INTERVAL=6;COUNT=1
+DTEND;VALUE=DATE:20210413
+SUMMARY:¡Chile\, territorio en movimiento! Antofagasta
+DESCRIPTION:Fecha: 12 y 18 de abril Paseo de la Ciencia de Puerto de Ideas virtual.\nEntidad asociada: Puerto de Ideas y UCN.\nActividad lanzamiento regional: Taller participativo lanzamiento de la muestra ¡Chile, territorio en movimiento! en Paseo de la Ciencia del Festival Puerto de Ideas.\nParticipantes: Alcalde o representante de la Municipalidad de Antofagasta\, investigadores CIGIDEN (Francisca Roldan  y Susana Layana)\, representante Puerto de Ideas\, profesores de colegios o encargado DAEM municipal.
+LOCATION:Antofagasta
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:¡Chile, territorio en movimiento! Antofagasta
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

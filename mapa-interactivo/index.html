@@ -1,0 +1,1152 @@
+<!DOCTYPE html>
+
+<html lang="en"><link type="text/css" rel="stylesheet" id="dark-mode-general-link"><link type="text/css" rel="stylesheet" id="dark-mode-custom-link"><style type="text/css" id="dark-mode-custom-style"></style><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="apple-touch-icon" sizes="57x57" href="../apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="../apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="../apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="../apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="../apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="../apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="../apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="../apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="../android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="../favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
+    <link rel="manifest" href="../manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="../ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <title>Mapa digital de amenazas y desastres - Territorio en Movimiento</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/product/">
+
+    <!-- Bootstrap core CSS -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles -->
+    <link href="../css/style.css" rel="stylesheet">
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-QSJSBMJMNR"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-QSJSBMJMNR');
+</script>
+  </head>
+
+  <body>
+
+
+    <div class="bg-azul-2 position-relative text-center my-auto">
+        <div class="container position-relative">
+            <div class="row container padding-right">
+                <div class="col-6">
+                    <div class="row my-5 mr-3 home-link">
+                        <div style="padding-left: 0px !important; padding-right: 20px !important;" class="col-sm-4 ">
+                            <img class="img-fluid my-auto" src="../img/logo.svg" alt="Logotipo">
+                        </div>
+                        <div class="col-sm-8 text-left text-white my-auto">
+                            <div class="row">
+                                <h2>¡CHILE, TERRITORIO EN MOVIMIENTO!</h2>
+                            </div>
+                            <div class="row">
+                                <h3>Terremotos, tsunamis, aluviones, volcanes y otras amenazas</h3>
+                            </div>
+                        </div>
+                        <a href="../"></a>
+                    </div>
+                </div>
+                <div class="col-6 my-auto menu-derecha text-right">
+                    <ul class="list-group texto-blanco">
+                        <a href="../" class="list-group-item list-group-item-action">Inicio</a>
+                        <a href="../about" class="list-group-item list-group-item-action">Proyecto</a>
+                        <a href="../contacto" class="list-group-item list-group-item-action">Contacto</a>
+                    </ul>
+                </div>
+
+                <div class="row ml-5 mb-5 mr-3 text-white text-center">
+                    <div class="col-sm-6 my-auto">
+                            <h1 style="font-size: 1rem !important;" class="my-auto">Experimenta, conoce y aprende con los simuladores 3D de CIGIDEN</h1>
+                    </div>
+                    <div class="col-sm-6 my-auto dropdown-menu-sec">
+                        <div class="dropdown show text-center ">
+                            <a class="btn btn-secondary dropdown-toggle naranjo px-5 py-3 simulaciones-boton" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Simulaciones
+                            </a>
+                            
+                            <div class="dropdown-menu experimenta-conoce-menu" aria-labelledby="dropdownMenuLink">
+                                <a class="dropdown-item" href="../mapa-interactivo/">Mapa digital de amenazas y desastres</a>
+                                <a class="dropdown-item" href="../multiamenaza/">Chile territorio vulnerable y expuesto</a>
+                                <a class="dropdown-item" href="../tsunamilab/">Tsunami, un fenómeno global</a>
+                                <a class="dropdown-item" href="../tsunami3d/">Inundación por Tsunami</a>
+                                <a class="dropdown-item" href="../aluviones/">Riesgo de aluviones</a>
+                                <a class="dropdown-item" href="../volcanes/">Erupciones volcánicas y lahares</a> 
+                                <a class="dropdown-item" href="../muestravirtual/">Muestra virtual tridimensional</a>
+                            </div>
+                        </div>   
+                    </div>
+
+                </div>
+
+            </div>
+            
+        </div>
+    </div>
+
+
+
+    <div class="container position-relative overflow-hidden">
+        <div class="row my-3 mx-1">
+            <div class="col-sm-5 my-5 titulo">
+                    <h1>Mapa digital de amenazas y desastres de Chile</h1>
+            </div>
+        </div>
+    </div>
+
+    <div class="container position-relative overflow-hidden text-center mb-5">
+    
+        <div class="row text-left subtitulo">
+            <div class="col-sm-5">
+                <h2>Mapa multimedial intercultural de relatos que contempla un mapa ilustrado e interactivo ampliable de Chile, con distintos puntos representativos de eventos históricos y emblemáticos de diversas amenazas naturales y desastres ocurridos en el país.</h2>
+            </div>
+            <div class="col-sm-2"></div>
+            <div class="col-sm-5">
+                <h2>En cada ícono se despliega material con información entregada desde dos perspectivas: técnica-científica y la visión de las comunidades tradicionales (pescadores, agricultores, artesanos) y/o pueblos indígenas.</h2>
+            </div>
+        </div>
+        <div class="row text-left">
+            <div class="col-sm-5 mt-5">
+                <h1 class="titulo-2">Tipos de Amenazas:</h1>
+        </div>
+        </div>
+        <div class="row text-left">
+            <div class="col-sm-5 p-descripcion mt-5">
+                <span class="volcanes-txt"><img class="img-fluid icono-amenazas" src="../img/bg-mapa/volcanes.svg">Erupciones volcánicas</span>
+                <p class="my-4 ">Las erupciones volcánicas –explosiones o emanaciones de lava, cenizas y gases tóxicos desde el interior de la Tierra–, se producen por el calentamiento del magma. Al igual que una botella de gaseosa, si la batimos, el gas que tiene dentro comienza un proceso de presión. Al abrirla, el contenido sale expulsado con violencia mojando todo alrededor. En una erupción volcánica ocurre algo similar, producto de procesos naturales, el líquido (magma) más gases tóxicos, piedras y otros, sale expulsado periódicamente de su interior. </p>
+            </div>
+            <div class="col-sm-2"></div>
+            <div class="col-sm-5 p-descripcion mt-5">
+                <span class="aluviones-txt"><img class="img-fluid icono-amenazas" src="../img/bg-mapa/aluviones.svg">Aluviones</span>
+                <p class="my-4 ">Un aluvión o flujos de barro, es una mezcla entre el agua que cae en forma de lluvia y el material que rellena los cauces o quebradas, es decir, la tierra y cualquier otro material que encuentre a su paso. Esta mezcla, por efecto de gravedad, se desplaza pendiente abajo, donde usualmente se ubican la zonas urbanas afectándola de diferentes maneras. Los aluviones ocurren por fenómenos climático, propios de la tierra pero también por el impacto de la actividad humana sobre las quebradas.
+                </p>
+            </div>
+            <div class="col-sm-5 p-descripcion mt-5">
+                <span class="terremotos-txt"><img class="img-fluid icono-amenazas" src="../img/bg-mapa/terremotos.svg">Terremotos</span>
+                <p class="my-4 ">Un terremoto es un movimiento intenso de la superficie terrestre, causado por la brusca liberación de energía acumulada al interior de la Tierra, que esta conformada por distintas capas o “placas”. Estas placas conocidas como “tectónicas” se mueven para acomodarse y periódicamente “chocan” entre sí, propagando “ondas” por toda la superficie terrestre y por debajo de ella, provocando desde grietas en la superficie, sacudidas, vibraciones, hasta deslizamiento de tierra, réplicas e incluso tsunamis, también conocidos como maremotos.
+                </p>
+            </div>
+            <div class="col-sm-2"></div>
+            <div class="col-sm-5 p-descripcion mt-5">
+                <span class="tsunamis-txt"><img class="img-fluid icono-amenazas" src="../img/bg-mapa/tsunamis.svg">Tsunamis</span>
+                <p class="my-4 ">Un tsunami es una serie de olas de periodos muy largos, que pueden alcanzar alturas cerca de la costa de entre 1 y 10 metros. En Chile, los tsunamis son generalmente producidos por terremotos que logran “alterar” el océano, generando una deformación de la superficie del mar que luego se propaga en todas las direcciones. Los tsunamis pueden viajar a gran velocidad en la mitad del océano (como un avión) pero con alturas de ola pequeñas. Sin embargo, cuando un tsunami se acerca a la costa, su velocidad disminuye (como un auto) y su altura aumenta pudiendo inundar grandes extensiones y producir daños. Los tsunamis también se generan por derrumbes costeros o submarinos, y asteroides que caen en el océano.</p>
+            </div>
+        </div>
+        <div class="row text-center mt-5 mb-3">
+            <div class="col-sm-12 click-comienza-explorar">
+                <h1 class="titulo-2">¡Comienza a explorar!<img class="img-fluid comienza-explorar" src="../img/bg-mapa/mano.svg"></h1>
+            </div>
+            
+        </div>
+    </div>
+
+    <div class="container position-relative overflow-hidden">
+        <div class="row my-3 mx-1">
+            <div id="titulo-zona" class="col-sm-5 my-5 titulo">
+                    <h1 class="texto-zona-norte">Zona Norte</h1>
+                    <h1 class="texto-zona-centro">Zona Centro</h1>
+                    <h1 class="texto-zona-sur">Zona Sur</h1>
+                    <span style="display: none;" class="volver-atras"><h4>Volver atrás</h4></span>
+            </div>
+        </div>
+    </div>
+
+
+  <!-- Zona Norte Menu -->
+
+  <div style="display: none;" class="text-center zona-norte-menu container my-3">
+    <div class="">
+      <ul class="nav nav-tabs card-header-tabs">
+        <li class="nav-item btn-grey py-3 px-3 btn-card my-2 mx-3"  data-toggle="modal" data-target="#arica-parinacota">
+          <a class="">XV. Región de Arica y Parinacota</a>
+        </li>
+        <li class="nav-item btn-grey py-3 px-3 btn-card my-2 mx-3" data-toggle="modal" data-target="#antofagasta-aluvion">
+          <a class="">II. Región de Antofagasta - Aluvión</a>
+        </li>
+        <li class="nav-item btn-grey py-3 px-3 btn-card my-2 mx-3"  data-toggle="modal" data-target="#antofagasta-volcan">
+            <a class="">II. Región de Antofagasta - Volcán</a>
+          </li>
+        <li class="nav-item btn-grey py-3 px-3 btn-card my-2 mx-3"  data-toggle="modal" data-target="#coquimbo">
+          <a class="">IV. Región de Coquimbo</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+    <!-- Zona Centro Menu -->
+
+    <div style="display: none;" class="text-center zona-centro-menu container my-3">
+        <div class="">
+          <ul class="nav nav-tabs card-header-tabs">
+            <li class="nav-item btn-grey py-3 px-3 btn-card my-2 mx-3"  data-toggle="modal" data-target="#valparaiso">
+              <a class="">V. Región de Valparaíso</a>
+            </li>
+            <li class="nav-item btn-grey py-3 px-3 btn-card my-2 mx-3" data-toggle="modal" data-target="#metropolitana-terremoto">
+              <a class="">RM. Región Metropolitana - Terremoto</a>
+            </li>
+            <li class="nav-item btn-grey py-3 px-3 btn-card my-2 mx-3"  data-toggle="modal" data-target="#metropolitana-aluvion">
+                <a class="">RM. Región Metropolitana - Aluvión</a>
+              </li>
+            <li class="nav-item btn-grey py-3 px-3 btn-card my-2 mx-3"  data-toggle="modal" data-target="#maule">
+              <a class="">VII. Región del Maule</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+        <!-- Zona Sur Menu -->
+
+  <div style="display: none;" class="text-center zona-sur-menu container my-3">
+    <div class="">
+      <ul class="nav nav-tabs card-header-tabs">
+        <li class="nav-item btn-grey py-3 px-3 btn-card my-2 mx-3"  data-toggle="modal" data-target="#araucania">
+          <a class="">XIV. Región de La Araucanía</a>
+        </li>
+        <li class="nav-item btn-grey py-3 px-3 btn-card my-2 mx-3" data-toggle="modal" data-target="#los-rios">
+          <a class="">XIV. Región de Los Ríos</a>
+        </li>
+        <li class="nav-item btn-grey py-3 px-3 btn-card my-2 mx-3"  data-toggle="modal" data-target="#lagos-chaiten">
+            <a class="">XIV. Región de Los Lagos - Chaitén</a>
+          </li>
+        <li class="nav-item btn-grey py-3 px-3 btn-card my-2 mx-3"  data-toggle="modal" data-target="#lagos-calbuco">
+          <a class="">XIV. Región de Los Lagos - Calbuco</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  
+  <!-- XV. Región de Arica y Parinacota -->
+  <div class="modal fade" id="arica-parinacota" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content ">
+        <div  class="position-relative overflow-hidden ancho-card">
+            <div class="card card-contenido">
+                <img class="card-img-top" src="../img/bg-mapa/terremoto.jpg" alt="imagen">
+                <img class="cerrar" data-dismiss="modal" src="../img/bg-mapa/cerrar.svg" alt="">
+                <img class="siguiente-boton activo siguiente-boton-arica-parinacota" src="../img/bg-mapa/siguiente.svg" alt="">
+                <img style="display: none;" class="anterior-boton anterior-boton-arica-parinacota" src="../img/bg-mapa/anterior.svg" alt="">
+                <div class="card-body">
+                    <h2 class="card-title underline my-4">XV. Región de Arica y Parinacota</h2>
+                    <div class="row position-relative overflow-hidden my-5">
+                        <div class="col-3 d-flex justify-content-center">
+                            <img class="img-fluid icono-amenazas" src="../img/bg-mapa/tsunamis.svg" alt="">
+                            <img class="img-fluid icono-amenazas" src="../img/bg-mapa/terremotos.svg" alt="">
+                        </div>
+                        <div class="col-5 text-card font-w-bold">
+                            <h3>Terremoto y Tsunami</h3>
+                            <h3>Arica y Parinacota</h3>
+                        </div>     
+                        <div class="col-4 text-card text-right font-w-light">
+                            <h3>1 de abril 2014</h3>
+                            <h3>Magnitud 8.1</h3>
+                        </div>                       
+                    </div>
+                    <div class="row position-relative overflow-hidden">
+                        <div class="col-6 d-flex justify-content-center">
+                            <a class="btn btn-primary btn-grey py-3" data-toggle="collapse" href="#cientifico-arica-parinacota" role="button" aria-expanded="false" aria-controls="cientifico">Conocimiento científico</a>
+                        </div>
+                        <div class="col-6 d-flex justify-content-center">
+                            <a class="btn btn-primary btn-grey py-3" data-toggle="collapse" href="#local-arica-parinacota" role="button" aria-expanded="false" aria-controls="cientifico">Conocimiento local</a>
+                        </div>                        
+                    </div>
+                    <div class="container my-5 fondo-gris" id="accordion-arica-parinacota">
+
+                        <div class="collapse" id="cientifico-arica-parinacota" data-parent="#accordion-arica-parinacota">
+                            <div class="row py-3 px-3">
+                                <div class="col-5 my-auto">
+                                    <img class="img-fluid" src="../img/bg-mapa/conocimiento-cientifico.jpg" alt="">
+                                </div>
+                                <div class="col-7 my-auto">
+                                    <h3 class="descripcion">En la mañana del martes 1 de abril de 2014, se registró un terremoto de 8.1 grados en Iquique, que afectó las regiones de Arica y Parinacota, Tarapacá, Antofagasta y Tacna en Perú. Este terremoto, considerado el más fuerte registrado ese año a nivel mundial, tuvo una duración de tres minutos y su epicentro a 83 kilómetros al noroeste de Iquique. Tras el sismo se generó un tsunami moderado que afectó principalmente a la ciudad de Iquique, con botes que llegaron a la costa y naufragios.
+                                    </h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="collapse" id="local-arica-parinacota" data-parent="#accordion-arica-parinacota">
+                            <div class="row py-3 px-3">
+                                <div class="col-5 my-auto">
+                                    <img class="img-fluid" src="../img/bg-mapa/conocimiento-local.jpg" alt="">
+                                </div>
+                                <div class="col-7 my-auto">
+                                    <h3 class="descripcion">Hubo una vez un Inca que sentía particular predilección por las aguas del mar de Arica, y todos los años celebraba en ellas grandes fiestas, en las que participaban bellas mujeres que se bañaban junto a él. Se dice que las sirenas sentían celos y envidia de ellas, así que una noche de gran jolgorio, las sirenas y los caballos marinos crearon un remolino de olas gigantescas, que con una fuerza brutal se adentró en la playa, llevándose todo a su paso. Se dice que entonces la corte del Inca quedó sepultada en el océano, ya que la brutalidad de las aguas fue demasiada. Tanta, que incluso los fuegos de un volcán llamado Tacora fueron apagados para siempre.
+                                    </h3>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    
+
+                </div>
+                <div></div>
+            </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+    <!-- XV. Región de Antofagasta Aluvión -->
+    <div class="modal fade" id="antofagasta-aluvion" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content ">
+            <div  class="position-relative overflow-hidden ancho-card">
+                <div class="card card-contenido">
+                    <img class="card-img-top" src="../img/bg-mapa/aluviones.jpg" alt="imagen">
+                    <img class="cerrar" data-dismiss="modal" src="../img/bg-mapa/cerrar.svg" alt="">
+                    <div class="card-body">
+                        <h2 class="card-title underline my-4">XV. Región de Antofagasta</h2>
+                        <div class="row position-relative overflow-hidden my-5">
+                            <div class="col-3 d-flex justify-content-center">
+                                <img class="img-fluid icono-amenazas" src="../img/bg-mapa/aluviones.svg" alt="">
+                            </div>
+                            <div class="col-5 text-card font-w-bold">
+                                <h3>Aluvión Antofagasta</h3>
+                            </div>     
+                            <div class="col-4 text-card text-right font-w-light">
+                                <h3>18 de junio 1991</h3>
+                            </div>                       
+                        </div>
+                        <div class="row position-relative overflow-hidden">
+                            <div class="col-6 d-flex justify-content-center">
+                                <a class="btn btn-primary btn-grey py-3" data-toggle="collapse" href="#cientifico-antofagasta-aluvion" role="button" aria-expanded="false" aria-controls="cientifico">Conocimiento científico</a>
+                            </div>
+                            <div class="col-6 d-flex justify-content-center">
+                                <a class="btn btn-primary btn-grey py-3" data-toggle="collapse" href="#local-antofagasta-aluvion" role="button" aria-expanded="false" aria-controls="cientifico">Conocimiento local</a>
+                            </div>                        
+                        </div>
+                        <div class="container my-5 fondo-gris" id="accordion-antofagasta-aluvion">
+    
+                            <div class="collapse" id="cientifico-antofagasta-aluvion" data-parent="#accordion-antofagasta-aluvion">
+                                <div class="row py-3 px-3">
+                                    <div class="col-5 my-auto">
+                                        <img class="img-fluid" src="../img/bg-mapa/conocimiento-cientifico.jpg" alt="">
+                                    </div>
+                                    <div class="col-7 my-auto">
+                                        <h3 class="descripcion">En tan solo tres horas, durante la madrugada del 18 de junio de 1991, cayeron entre 17 y 42 milímetros de agua lluvia en la Región de Antofagasta, muchísimo si se considerando que en promedio en unos de los desiertos más áridos del mundo las precipitaciones máximas diarias no supera los 2 milímetros. Durante el evento hubo características climáticas inusuales, sumado a la geomorfología propia de la ciudad, pero la inexistencia de obras de mitigación de aluviones, el material de las viviendas y la planificación territorial, desencadenaron de unos de los desastres por aluvión más destructivos del norte de Chile.
+                                        </h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="collapse" id="local-antofagasta-aluvion" data-parent="#accordion-antofagasta-aluvion">
+                                <div class="row py-3 px-3">
+                                    <div class="col-5 my-auto">
+                                        <img class="img-fluid" src="../img/bg-mapa/conocimiento-local.jpg" alt="">
+                                    </div>
+                                    <div class="col-7 my-auto">
+                                        <h3 class="descripcion">Amaru, según cuenta el antiguo saber aymara, es un espíritu vinculado a ríos y flujos de agua. Algunos dicen que es una serpiente gigante que se mueve por debajo de la tierra, encarnando poderes que los humanos no pueden controlar, como los temblores o la caída de lluvias torrenciales. Normalmente, Amaru se preocupa de entregar a los humanos tierra fértil para cultivar y hacer crecer sus alimentos. Pero cuando las personas no actúan correctamente o son ingratos con él, es capaz de generar impresionantes tormentas y hacer crecer los ríos de modo muy destructivo. Grandes deslizamientos de tierra se recuerdan y se atribuyen a Amaru, conocido como la más poderosa de las culebras. </h3>
+                                    </div>
+                                </div>
+                            </div>
+    
+                        </div>
+        
+                    </div>
+                    <div></div>
+                </div>
+            </div>
+    
+          </div>
+        </div>
+      </div>
+
+          <!-- XV. Región de Antofagasta Volcán -->
+    <div class="modal fade" id="antofagasta-volcan" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content ">
+            <div  class="position-relative overflow-hidden ancho-card">
+                <div class="card card-contenido">
+                    <img class="card-img-top" src="../img/bg-mapa/volcanes.jpg" alt="imagen">
+                    <img class="cerrar" data-dismiss="modal" src="../img/bg-mapa/cerrar.svg" alt="">
+                    <div class="card-body">
+                        <h2 class="card-title underline my-4">XV. Región de Antofagasta</h2>
+                        <div class="row position-relative overflow-hidden my-5">
+                            <div class="col-3 d-flex justify-content-center">
+                                <img class="img-fluid icono-amenazas" src="../img/bg-mapa/volcanes.svg" alt="">
+                            </div>
+                            <div class="col-5 text-card font-w-bold">
+                                <h3>Erupción Volcánica</h3>
+                                <h3>Láscar</h3>
+                            </div>     
+                            <div class="col-4 text-card text-right font-w-light">
+                                <h3>19 de abril 1993</h3>
+                            </div>                       
+                        </div>
+                        <div class="row position-relative overflow-hidden">
+                            <div class="col-6 d-flex justify-content-center">
+                                <a class="btn btn-primary btn-grey py-3" data-toggle="collapse" href="#cientifico-antofagasta-volcan" role="button" aria-expanded="false" aria-controls="cientifico">Conocimiento científico</a>
+                            </div>
+                            <div class="col-6 d-flex justify-content-center">
+                                <a class="btn btn-primary btn-grey py-3" data-toggle="collapse" href="#local-antofagasta-volcan" role="button" aria-expanded="false" aria-controls="cientifico">Conocimiento local</a>
+                            </div>                        
+                        </div>
+                        <div class="container my-5 fondo-gris" id="accordion-antofagasta-volcan">
+    
+                            <div class="collapse" id="cientifico-antofagasta-volcan" data-parent="#accordion-antofagasta-volcan">
+                                <div class="row py-3 px-3">
+                                    <div class="col-5 my-auto">
+                                        <img class="img-fluid" src="../img/bg-mapa/conocimiento-cientifico.jpg" alt="">
+                                    </div>
+                                    <div class="col-7 my-auto">
+                                        <h3 class="descripcion">El volcán Lascar es conocido por ser un estratovolcán, es decir, en forma de cono y de gran altura, cuyo domo se encuentra dentro del cráter. La erupción del 19 y 20 de abril de 1993, corresponden al mayor evento volcánico ocurrido en el norte de Chile en tiempos históricos. El flujo piropláctico –fragmentos volcánicos sólidos lanzados a la atmósfera durante una erupción explosiva– alcanzó los 300 a 500 kilómetros de velocidad y una distancia ocho kilómetros. La erupción duró dos días y medios, fue gigantesca y sus cenizas llegaron hasta el atlántico. Al oeste del volcán Láscar existen centros poblados como Toconao, Talabre, Camar, Peine y Socaire, que podrían verse afectados.
+                                        </h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="collapse" id="local-antofagasta-volcan" data-parent="#accordion-antofagasta-volcan">
+                                <div class="row py-3 px-3">
+                                    <div class="col-5 my-auto">
+                                        <img class="img-fluid" src="../img/bg-mapa/conocimiento-local.jpg" alt="">
+                                    </div>
+                                    <div class="col-7 my-auto">
+                                        <h3 class="descripcion">Para los lican antai, los volcanes son valientes guerreros y los montes bellas doncellas. Juntos han convivido desde la creación de la tierra con grandes conflictos. El más recordado ocurrió cuando el volcán Licancabur se enamoró de la bella Quimal, un cerro cercano. Juntos eran felices. Pero Licancabur no era el único que amaba a Quimal: Jurique, su hermano menor, también la quería. Un día Jurique intentó arrebatarle a su amada a Licancabur. Frente a la pugna, el volcán Láscar, padre de Quimal, decidió intervenir. Furioso, separó a Quimal de los hermanos, desterrándola al otro lado del Salar de Atacama. Reprendió a Licancabur y Jurique y entró en erupción, liberando flujos de lava que dejaron a Jurique sin cabeza. Desde lo alto del Valle de la Luna, se puede ver a Licancabur al lado de su hermano (cima plana), y al fondo el Láscar, vigilándolos. Muy lejos está Quimal. </h3>
+                                    </div>
+                                </div>
+                            </div>
+    
+                        </div>
+        
+                    </div>
+                    <div></div>
+                </div>
+            </div>
+    
+          </div>
+        </div>
+      </div>
+
+        <!-- IV. Región de Coquimbo -->
+  <div class="modal fade" id="coquimbo" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content ">
+        <div  class="position-relative overflow-hidden ancho-card">
+            <div class="card card-contenido">
+                <img class="card-img-top" src="../img/bg-mapa/terremoto.jpg" alt="imagen">
+                <img class="cerrar" data-dismiss="modal" src="../img/bg-mapa/cerrar.svg" alt="">
+                <img class="siguiente-boton activo siguiente-boton-coquimbo" src="../img/bg-mapa/siguiente.svg" alt="">
+                <img style="display: none;" class="anterior-boton anterior-boton-coquimbo" src="../img/bg-mapa/anterior.svg" alt="">
+                <div class="card-body">
+                    <h2 class="card-title underline my-4">IV. Región de Coquimbo</h2>
+                    <div class="row position-relative overflow-hidden my-5">
+                        <div class="col-3 d-flex justify-content-center">
+                            <img class="img-fluid icono-amenazas" src="../img/bg-mapa/terremotos.svg" alt="">
+                            <img class="img-fluid icono-amenazas" src="../img/bg-mapa/tsunamis.svg" alt="">
+                        </div>
+                        <div class="col-5 text-card font-w-bold">
+                            <h3>Terremoto y Tsunami</h3>
+                            <h3>Illapel</h3>
+                        </div>     
+                        <div class="col-4 text-card text-right font-w-light">
+                            <h3>16 de septiembre 2015</h3>
+                            <h3>Magnitud 8.4</h3>
+                        </div>                       
+                    </div>
+                    <div class="row position-relative overflow-hidden">
+                        <div class="col-6 d-flex justify-content-center">
+                            <a class="btn btn-primary btn-grey py-3" data-toggle="collapse" href="#cientifico-coquimbo" role="button" aria-expanded="false" aria-controls="cientifico">Conocimiento científico</a>
+                        </div>
+                        <div class="col-6 d-flex justify-content-center">
+                            <a class="btn btn-primary btn-grey py-3" data-toggle="collapse" href="#local-coquimbo" role="button" aria-expanded="false" aria-controls="cientifico">Conocimiento local</a>
+                        </div>                        
+                    </div>
+                    <div class="container my-5 fondo-gris" id="accordion-coquimbo">
+
+                        <div class="collapse" id="cientifico-coquimbo" data-parent="#accordion-coquimbo">
+                            <div class="row py-3 px-3">
+                                <div class="col-5 my-auto">
+                                    <img class="img-fluid" src="../img/bg-mapa/conocimiento-cientifico.jpg" alt="">
+                                </div>
+                                <div class="col-7 my-auto">
+                                    <h3 class="descripcion">Coquimbo vivió uno de los mayores sismos de ese año en el mundo, con una magnitud de 8,4, un 16 de septiembre de 2015. Fue un terremoto de contacto entre las placas de Nazca y Sudamérica, es decir, un sismo interplaca, cuyo epicentro se ubicó a 42 km al oeste de la localidad de Canela Baja, impactando con fuerza numerosas localidades costeras de la región. El sismo, además, generó un tsunami cuyas olas alcanzaron la costa pocos minutos después de ocurrido el evento sísmico y produjo inundaciones importantes, luego de varias horas de ocurrido el terremoto.</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="collapse" id="local-coquimbo" data-parent="#accordion-coquimbo">
+                            <div class="row py-3 px-3">
+                                <div class="col-5 my-auto">
+                                    <img class="img-fluid" src="../img/bg-mapa/conocimiento-local-4ta.jpg" alt="">
+                                </div>
+                                <div class="col-7 my-auto">
+                                    <h3 class="descripcion">En Valle del Elqui ronda un gigante que mide entre cinco y seis metros, de rostro muy moreno y que viste como solían hacerlo los viejos mineros: bonete (gorro), blusón, bombachas y ojotas. El gigante pasa todo el día cuidando su riqueza, un tremendo tesoro que ha reunido con el paso de los años. Durante el día, a veces, estira su cuerpo para posarse entre dos cumbres, haciendo que la tierra tiemble. De igual forma, después de la medianoche, cuando anda menos gente y su tesoro corre menos peligro de ser robado, sale a caminar. Ahí es cuando la veta más se mueve y mayores son los terremotos que se atestiguan en el valle. </h3>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div></div>
+            </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+          <!-- V. Región de Valparaíso -->
+          <div class="modal fade" id="valparaiso" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content ">
+                <div  class="position-relative overflow-hidden ancho-card">
+                    <div class="card card-contenido">
+                        <img class="card-img-top" src="../img/bg-mapa/terremoto.jpg" alt="imagen">
+                        <img class="cerrar" data-dismiss="modal" src="../img/bg-mapa/cerrar.svg" alt="">
+                        <img class="siguiente-boton activo siguiente-boton-valparaiso" src="../img/bg-mapa/siguiente.svg" alt="">
+                        <img style="display: none;" class="anterior-boton anterior-boton-valparaiso" src="../img/bg-mapa/anterior.svg" alt="">
+                        <div class="card-body">
+                            <h2 class="card-title underline my-4">V. Región de Valparaíso</h2>
+                            <div class="row position-relative overflow-hidden my-5">
+                                <div class="col-3 d-flex justify-content-center">
+                                    <img class="img-fluid icono-amenazas" src="../img/bg-mapa/terremotos.svg" alt="">
+                                    <img class="img-fluid icono-amenazas" src="../img/bg-mapa/tsunamis.svg" alt="">
+                                </div>
+                                <div class="col-5 text-card font-w-bold">
+                                    <h3>Terremoto y Tsunami de</h3>
+                                    <h3>Valparaíso</h3>
+                                </div>     
+                                <div class="col-4 text-card text-right font-w-light">
+                                    <h3>8 de julio 1730</h3>
+                                    <h3>Magnitud 8.7</h3>
+                                </div>                       
+                            </div>
+                            <div class="row position-relative overflow-hidden">
+                                <div class="col-6 d-flex justify-content-center">
+                                    <a class="btn btn-primary btn-grey py-3" data-toggle="collapse" href="#cientifico-valparaiso" role="button" aria-expanded="false" aria-controls="cientifico">Conocimiento científico</a>
+                                </div>
+                                <div class="col-6 d-flex justify-content-center">
+                                    <a class="btn btn-primary btn-grey py-3" data-toggle="collapse" href="#local-valparaiso" role="button" aria-expanded="false" aria-controls="cientifico">Conocimiento local</a>
+                                </div>                        
+                            </div>
+                            <div class="container my-5 fondo-gris" id="accordion-valparaiso">
+        
+                                <div class="collapse" id="cientifico-valparaiso" data-parent="#accordion-valparaiso">
+                                    <div class="row py-3 px-3">
+                                        <div class="col-5 my-auto">
+                                            <img class="img-fluid" src="../img/bg-mapa/conocimiento-cientifico.jpg" alt="">
+                                        </div>
+                                        <div class="col-7 my-auto">
+                                            <h3 class="descripcion">Las crónicas históricas, evidencias geológicas del tsunamis, modelación numérica, y un arduo trabajo científico, permitieron saber que el último megaterremoto de la zona central ocurrió hace 290 años. Se trata del terremoto de 1730, que azotó las costas de la zona central de Chile –el 8 de julio– y que tuvo una magnitud de entre 9.1 y 9.3. Considerado uno de los más grandes de la historia sísmica de Chile y el mundo, causó la destrucción de edificios y dejó pérdidas estructurales entre Copiapó y Chillán. El tsunami alcanzó en Valparaíso y Concepción (hoy Penco), ocho metros de altura. A las costas de Japón, las olas llegaron un día después del terremoto y se constató un aumento del nivel del mar de hasta dos metros.
+                                            </h3>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="collapse" id="local-valparaiso" data-parent="#accordion-valparaiso">
+                                    <div class="row py-3 px-3">
+                                        <div class="col-5 my-auto">
+                                            <img class="img-fluid" src="../img/bg-mapa/conocimiento-local-rm.jpg" alt="">
+                                        </div>
+                                        <div class="col-7 my-auto">
+                                            <h3 class="descripcion">Luego de que el pirata Francis Drake asaltara Valparaíso, en 1578, el rey de España envió al puerto una imagen de Cristo que envió a tallar al mejor artesano de su reino, un hombre moribundo que volcó todos sus esfuerzos en un Cristo crucificado que miraba hacia el cielo. La barca en la que viajaba hacia América se hundió debido a las terribles marejadas, pero aún así, el Cristo flotó a la deriva hasta que los habitantes del puerto lo encontraron un día de tormenta. Al recogerlo, la tempestad se calmó, por lo que decidieron adoptar la figura del Cristo como Santo Patrón del Puerto, nombrándolo como Cristo de la Matriz. Los años pasaron y el puerto de Valparaíso olvidó las costumbres cristianas, así que el rostro del Cristo, que antes miraba al cielo fue decayendo. Algunos dicen que los terremotos que han asolado la ciudad son causados por los males que cometen las personas y por eso el Cristo agacha la cabeza, decepcionado. </h3>
+                                        </div>
+                                    </div>
+                                </div>
+        
+                            </div>
+        
+        
+                        </div>
+                        <div></div>
+                    </div>
+                </div>
+        
+              </div>
+            </div>
+          </div>
+
+                  <!-- RM. Región Metropolitana -->
+  <div class="modal fade" id="metropolitana-terremoto" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content ">
+        <div  class="position-relative overflow-hidden ancho-card">
+            <div class="card card-contenido">
+                <img class="card-img-top" src="../img/bg-mapa/terremoto.jpg" alt="imagen">
+                <img class="cerrar" data-dismiss="modal" src="../img/bg-mapa/cerrar.svg" alt="">
+                <div class="card-body">
+                    <h2 class="card-title underline my-4">RM. Región Metropolitana</h2>
+                    <div class="row position-relative overflow-hidden my-5">
+                        <div class="col-3 d-flex justify-content-center">
+                            <img class="img-fluid icono-amenazas" src="../img/bg-mapa/terremotos.svg" alt="">
+                        </div>
+                        <div class="col-5 text-card font-w-bold">
+                            <h3>Terremoto de Santiago</h3>
+                        </div>     
+                        <div class="col-4 text-card text-right font-w-light">
+                            <h3>3 de marzo 1985</h3>
+                            <h3>Magnitud 8.0</h3>
+                        </div>                       
+                    </div>
+                    <div class="row position-relative overflow-hidden">
+                        <div class="col-6 d-flex justify-content-center">
+                            <a class="btn btn-primary btn-grey py-3" data-toggle="collapse" href="#cientifico-metropolitana-terremoto" role="button" aria-expanded="false" aria-controls="cientifico">Conocimiento científico</a>
+                        </div>
+                        <div class="col-6 d-flex justify-content-center">
+                            <a class="btn btn-primary btn-grey py-3" data-toggle="collapse" href="#local-metropolitana-terremoto" role="button" aria-expanded="false" aria-controls="cientifico">Conocimiento local</a>
+                        </div>                        
+                    </div>
+                    <div class="container my-5 fondo-gris" id="accordion-metropolitana-terremoto">
+
+                        <div class="collapse" id="cientifico-metropolitana-terremoto" data-parent="#accordion-metropolitana-terremoto">
+                            <div class="row py-3 px-3">
+                                <div class="col-5 my-auto">
+                                    <img class="img-fluid" src="../img/bg-mapa/conocimiento-cientifico.jpg" alt="">
+                                </div>
+                                <div class="col-7 my-auto">
+                                    <h3 class="descripcion">De magnitud de momento 8.0, el terremoto del 3 de marzo de 1985 registró un tsunami solo instrumental (es decir no perceptible al ojo humano),  duró 120 segundos,  fue el último gran evento sísmico de roce entre dos placas en Chile central, y uno de los más destructivos. Debido a la precariedad de las construcciones de la época, y la falta de una cultura sísmica desarrollada, los daños y las pérdidas humanas fueron severas: 178 muertos y 986.544 damnificados.</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="collapse" id="local-metropolitana-terremoto" data-parent="#accordion-metropolitana-terremoto">
+                            <div class="row py-3 px-3">
+                                <div class="col-5 my-auto">
+                                    <img class="img-fluid" src="../img/bg-mapa/conocimiento-local-rm.jpg" alt="">
+                                </div>
+                                <div class="col-7 my-auto">
+                                    <h3 class="descripcion">En época de la Colonia española, doña Catalina de los Ríos y Lisperguer –La Quintrala– mandó a tallar un Cristo conocido como El Señor de la Agonía. Mucho tiempo pasó y el Cristo se mantuvo en la capilla a la que fue destinado, hasta que ocurrió un gigantesco terremoto. La capilla se derrumbó y quedó solo en pie la pared que sostenía la figura tallada y se mantuvo perfectamente intacta excepto por una cosa: la corona de espinas había caído de la cabeza hasta su cuello. El párroco de la capilla intentó moverla, pero cuando lo hizo comenzó nuevamente un fuerte temblor, por lo que dejó la corona sigue ahí hasta el día de hoy. Se cree que si la corona de esta figura, ahora llamada el Señor de Mayo, volviera a estar en su cabeza, se produciría un gran y destructivo terremoto.</h3>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                </div>
+                <div></div>
+            </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+          <!-- RM. Región Metropolitana -->
+          <div class="modal fade" id="metropolitana-aluvion" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content ">
+                <div  class="position-relative overflow-hidden ancho-card">
+                    <div class="card card-contenido">
+                        <img class="card-img-top" src="../img/bg-mapa/aluviones.jpg" alt="imagen">
+                        <img class="cerrar" data-dismiss="modal" src="../img/bg-mapa/cerrar.svg" alt="">
+                        <div class="card-body">
+                            <h2 class="card-title underline my-4">RM. Región Metropolitana</h2>
+                            <div class="row position-relative overflow-hidden my-5">
+                                <div class="col-3 d-flex justify-content-center">
+                                    <img class="img-fluid icono-amenazas" src="../img/bg-mapa/aluviones.svg" alt="">
+                                </div>
+                                <div class="col-5 text-card font-w-bold">
+                                    <h3>Aluvión Quebrada</h3>
+                                    <h3>de Macul</h3>
+                                </div>     
+                                <div class="col-4 text-card text-right font-w-light">
+                                    <h3>3 de mayo 1993</h3>
+                                    <h3>Magnitud 8.0</h3>
+                                </div>                       
+                            </div>
+                            <div class="row position-relative overflow-hidden">
+                                <div class="col-6 d-flex justify-content-center">
+                                    <a class="btn btn-primary btn-grey py-3" data-toggle="collapse" href="#cientifico-metropolitana-aluvion" role="button" aria-expanded="false" aria-controls="cientifico">Conocimiento científico</a>
+                                </div>
+                                <div class="col-6 d-flex justify-content-center">
+                                    <a class="btn btn-primary btn-grey py-3" data-toggle="collapse" href="#local-metropolitana-aluvion" role="button" aria-expanded="false" aria-controls="cientifico">Conocimiento local</a>
+                                </div>                        
+                            </div>
+                            <div class="container my-5 fondo-gris" id="accordion-metropolitana-aluvion">
+        
+                                <div class="collapse" id="cientifico-metropolitana-aluvion" data-parent="#accordion-metropolitana-aluvion">
+                                    <div class="row py-3 px-3">
+                                        <div class="col-5 my-auto">
+                                            <img class="img-fluid" src="../img/bg-mapa/conocimiento-cientifico.jpg" alt="">
+                                        </div>
+                                        <div class="col-7 my-auto">
+                                            <h3 class="descripcion">Un evento meteorológico extremo, caractericado por intensas lluvías en un corto periodo de tiempo, activó dos grandes cuencas en la precordillera de la Región Metropolitana el lunes 4 de mayo a las 10.30 de la mañana: la Quebrada de San Ramón y la Quebrada de Macul. Esto redundó en que grandes cantidades de barro aluvional bajara a gran velocidad hacia la ciudad, inundando poblaciones y avenidas. Las cifras son elocuentes: 32.654 mil damnificados, 307 viviendas destruidas, 5.600 viviendas dañadas, 8 desaparecidos, 85 heridos, y la pérdida de 26 vidas humanas.
+                                            </h3>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="collapse" id="local-metropolitana-aluvion" data-parent="#accordion-metropolitana-aluvion">
+                                    <div class="row py-3 px-3">
+                                        <div class="col-5 my-auto">
+                                            <img class="img-fluid" src="../img/bg-mapa/conocimiento-local-rm.jpg" alt="">
+                                        </div>
+                                        <div class="col-7 my-auto">
+                                            <h3 class="descripcion">En una ocasión un petulante zorro –que se sabía hábil y veloz–, se acercó a una gran piedra y le dijo: “Corramos, y veamos quién puede llegar más rápido al valle”. La piedra respondió, “Pero yo soy muy pesada, no podré seguirte”. El zorro, motivado por demostrar lo ágil que era, insistió, y luego se echó a correr cerro abajo, mientras la piedra le seguía despacio. Cuando el zorro ya iba casi en la mitad del camino, decidió devolverse a ver si venía la piedra, porque sabía que llevaba una gran ventaja. Pero entonces, vio que la piedra aún lo seguía, pero poco a poco había comenzado a arrastrar a otras piedras consigo. Así, en un momento venía cerro abajo un gigantesco torrente de piedras y barro que corrían juntas a una velocidad que incluso superaba la del zorro. Así fue cómo la piedra ganó la apuesta.
+                                            </h3>
+                                        </div>
+                                    </div>
+                                </div>
+        
+                            </div>
+        
+        
+                        </div>
+                        <div></div>
+                    </div>
+                </div>
+        
+              </div>
+            </div>
+          </div>
+
+                  <!-- VII. Región del Maule -->
+  <div class="modal fade" id="maule" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content ">
+        <div  class="position-relative overflow-hidden ancho-card">
+            <div class="card card-contenido">
+                <img class="card-img-top" src="../img/bg-mapa/terremoto.jpg" alt="imagen">
+                <img class="cerrar" data-dismiss="modal" src="../img/bg-mapa/cerrar.svg" alt="">
+                <img class="siguiente-boton activo siguiente-boton-maule" src="../img/bg-mapa/siguiente.svg" alt="">
+                <img style="display: none;" class="anterior-boton anterior-boton-maule" src="../img/bg-mapa/anterior.svg" alt="">
+                <div class="card-body">
+                    <h2 class="card-title underline my-4">VII. Región del Maule</h2>
+                    <div class="row position-relative overflow-hidden my-5">
+                        <div class="col-3 d-flex justify-content-center">
+                            <img class="img-fluid icono-amenazas" src="../img/bg-mapa/terremotos.svg" alt="">
+                            <img class="img-fluid icono-amenazas" src="../img/bg-mapa/tsunamis.svg" alt="">
+                        </div>
+                        <div class="col-5 text-card font-w-bold">
+                            <h3>Terremoto y Tsunami</h3>
+                            <h3>del Maule</h3>
+                        </div>     
+                        <div class="col-4 text-card text-right font-w-light">
+                            <h3>27 de febrero 2010</h3>
+                            <h3>Magnitud 8.8</h3>
+                        </div>                       
+                    </div>
+                    <div class="row position-relative overflow-hidden">
+                        <div class="col-6 d-flex justify-content-center">
+                            <a class="btn btn-primary btn-grey py-3" data-toggle="collapse" href="#cientifico-maule" role="button" aria-expanded="false" aria-controls="cientifico">Conocimiento científico</a>
+                        </div>
+                        <div class="col-6 d-flex justify-content-center">
+                            <a class="btn btn-primary btn-grey py-3" data-toggle="collapse" href="#local-maule" role="button" aria-expanded="false" aria-controls="cientifico">Conocimiento local</a>
+                        </div>                        
+                    </div>
+                    <div class="container my-5 fondo-gris" id="accordion-maule">
+
+                        <div class="collapse" id="cientifico-maule" data-parent="#accordion-maule">
+                            <div class="row py-3 px-3">
+                                <div class="col-5 my-auto">
+                                    <img class="img-fluid" src="../img/bg-mapa/conocimiento-cientifico.jpg" alt="">
+                                </div>
+                                <div class="col-7 my-auto">
+                                    <h3 class="descripcion">El 27 de febrero a las 3:34 de la madrugada ocurrió un terremoto de magnitud 8.8 en Chile central, el segundo más grande de la historia del país después de 1960, generando un tsunami destructivo que afectó numerosas localidades y ciudades costeras, en las regiones del Maule y del Biobío. Este tsunami tuvo olas de hasta 20 metros en algunas localidades. Fue un terremoto típico de subducción –es decir choque entre dos placas tectónicas, que son muy frecuentes en Chile–, y una zona de ruptura del orden de 500 km de largo, lo que lo hizo perceptible en al menos seis regiones del país.</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="collapse" id="local-maule" data-parent="#accordion-maule">
+                            <div class="row py-3 px-3">
+                                <div class="col-5 my-auto">
+                                    <img class="img-fluid" src="../img/bg-mapa/conocimiento-local-maule.jpg" alt="">
+                                </div>
+                                <div class="col-7 my-auto">
+                                    <h3 class="descripcion">Los antiguos contaban que los temblores los produce el Pillán Mahuida, un espíritu dueño de un volcán, que saca toda su fuerza y logra producir grandes estremecimientos en la tierra. Las historias relatan que en el pasado, cuando el suelo se movía fuertemente y se escuchaba como la tierra sonaba bajo los pies, las personas, antes de salir de sus casas, dejaban en el moledor de la cocina sal o trigo. Si está se molía, entonces debían gritar: “Sí, estamos todos aquí”, y así se calmaba y paraba de mover la tierra. Se sabía que los terremotos eran un aviso del Pillán para saber si estaban todos los mapuches presentes. 
+                                    </h3>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                </div>
+                <div></div>
+            </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+                    <!-- XIV. Región de La Araucanía -->
+                    <div class="modal fade" id="araucania" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                          <div class="modal-content ">
+                            <div  class="position-relative overflow-hidden ancho-card">
+                                <div class="card card-contenido">
+                                    <img class="card-img-top" src="../img/bg-mapa/volcanes.jpg" alt="imagen">
+                                    <img class="cerrar" data-dismiss="modal" src="../img/bg-mapa/cerrar.svg" alt="">
+                                    <div class="card-body">
+                                        <h2 class="card-title underline my-4">XIV. Región de La Araucanía</h2>
+                                        <div class="row position-relative overflow-hidden my-5">
+                                            <div class="col-3 d-flex justify-content-center">
+                                                <img class="img-fluid icono-amenazas" src="../img/bg-mapa/volcanes.svg" alt="">
+                                            </div>
+                                            <div class="col-5 text-card font-w-bold">
+                                                <h3>Erupción Volcánica</h3>
+                                                <h3>Villarrica</h3>
+                                            </div>     
+                                            <div class="col-4 text-card text-right font-w-light">
+                                                <h3>29 de diciembre 1971</h3>
+                                            </div>                       
+                                        </div>
+                                        <div class="row position-relative overflow-hidden">
+                                            <div class="col-6 d-flex justify-content-center">
+                                                <a class="btn btn-primary btn-grey py-3" data-toggle="collapse" href="#cientifico-araucania" role="button" aria-expanded="false" aria-controls="cientifico">Conocimiento científico</a>
+                                            </div>
+                                            <div class="col-6 d-flex justify-content-center">
+                                                <a class="btn btn-primary btn-grey py-3" data-toggle="collapse" href="#local-araucania" role="button" aria-expanded="false" aria-controls="cientifico">Conocimiento local</a>
+                                            </div>                        
+                                        </div>
+                                        <div class="container my-5 fondo-gris" id="accordion-araucania">
+                    
+                                            <div class="collapse" id="cientifico-araucania" data-parent="#accordion-araucania">
+                                                <div class="row py-3 px-3">
+                                                    <div class="col-5 my-auto">
+                                                        <img class="img-fluid" src="../img/bg-mapa/conocimiento-cientifico.jpg" alt="">
+                                                    </div>
+                                                    <div class="col-7 my-auto">
+                                                        <h3 class="descripcion">El volcán Villarrica es un estratovolcán con mayor registro históricos de erupciones de Sudamérica, y está ubicado entre centros poblados como Pucón, Villarrica y Coñaripe, entre otros. Sus erupciones son explosivas y efusivas, con emisión de flujos de lava, caída de tefra o cenizas, material volcánico sólido y lahares (aluvión volcánico). La última erupción grande ocurrió el 29 de diciembre de 1971, causando un gran desastre debido a gigantescos lahares que llegaron hasta el Lago Villarrica, Lican Ray y hasta los poblados de Pucón y Coñaripe.
+                                                        </h3>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="collapse" id="local-araucania" data-parent="#accordion-araucania">
+                                                <div class="row py-3 px-3">
+                                                    <div class="col-5 my-auto">
+                                                        <img class="img-fluid" src="../img/bg-mapa/conocimiento-local-maule.jpg" alt="">
+                                                    </div>
+                                                    <div class="col-7 my-auto">
+                                                        <h3 class="descripcion">Del Pillán se cuentan muchas historias, tantas como volcanes y montañas hay en Chile, pues se dice que ahí precisamente habita este poderoso espíritu. Los Pillanes encarnan a los grandes antepasados mapuches, o el alma de sus jefes, quienes una vez muertos se convierten en volcanes y continúan liberando guerras en el cielo. Por eso, se cuenta, que hace mucho tiempo atrás, los espíritus que habitaban los volcanes Lanín, Villarrica y Quetrupillán, se pelearon duramente entre ellos, y arrojaron fuegos, rocas y lava ardiente para ver cual de todos era el más fuerte. Durante mucho tiempo estuvieron demostrando su fiereza, hasta que un día la lucha terminó. El Villarrica quedó con su fuego y algunas cicatrices, pero vivo. El Lanín mostró las huellas de sus heridas y sus fuegos apagados, y el Quetrupillán, que fue mutilado y muerto, comenzó a llamarse Mocho. 
+                                                        </h3>
+                                                    </div>
+                                                </div>
+                                            </div>
+                    
+                                        </div>
+                    
+                    
+                                    </div>
+                                    <div></div>
+                                </div>
+                            </div>
+                    
+                          </div>
+                        </div>
+                      </div>
+
+                                        <!-- XIV. Región de Los Ríos -->
+  <div class="modal fade" id="los-rios" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content ">
+        <div  class="position-relative overflow-hidden ancho-card">
+            <div class="card card-contenido">
+                <img class="card-img-top" src="../img/bg-mapa/terremoto.jpg" alt="imagen">
+                <img class="cerrar" data-dismiss="modal" src="../img/bg-mapa/cerrar.svg" alt="">
+                <img class="siguiente-boton activo siguiente-boton-los-rios" src="../img/bg-mapa/siguiente.svg" alt="">
+                <img style="display: none;" class="anterior-boton anterior-boton-los-rios" src="../img/bg-mapa/anterior.svg" alt="">
+                <div class="card-body">
+                    <h2 class="card-title underline my-4">XIV. Región de Los Ríos</h2>
+                    <div class="row position-relative overflow-hidden my-5">
+                        <div class="col-3 d-flex justify-content-center">
+                            <img class="img-fluid icono-amenazas" src="../img/bg-mapa/terremotos.svg" alt="">
+                            <img class="img-fluid icono-amenazas" src="../img/bg-mapa/tsunamis.svg" alt="">
+                        </div>
+                        <div class="col-5 text-card font-w-bold">
+                            <h3>Terremoto y Tsunami de</h3>
+                            <h3>Valdivia</h3>
+                        </div>     
+                        <div class="col-4 text-card text-right font-w-light">
+                            <h3>22 de mayo 1960</h3>
+                            <h3>Magnitud 9.5</h3>
+                        </div>                       
+                    </div>
+                    <div class="row position-relative overflow-hidden">
+                        <div class="col-6 d-flex justify-content-center">
+                            <a class="btn btn-primary btn-grey py-3" data-toggle="collapse" href="#cientifico-los-rios" role="button" aria-expanded="false" aria-controls="cientifico">Conocimiento científico</a>
+                        </div>
+                        <div class="col-6 d-flex justify-content-center">
+                            <a class="btn btn-primary btn-grey py-3" data-toggle="collapse" href="#local-los-rios" role="button" aria-expanded="false" aria-controls="cientifico">Conocimiento local</a>
+                        </div>                        
+                    </div>
+                    <div class="container my-5 fondo-gris" id="accordion-los-rios">
+
+                        <div class="collapse" id="cientifico-los-rios" data-parent="#accordion-los-rios">
+                            <div class="row py-3 px-3">
+                                <div class="col-5 my-auto">
+                                    <img class="img-fluid" src="../img/bg-mapa/conocimiento-cientifico.jpg" alt="">
+                                </div>
+                                <div class="col-7 my-auto">
+                                    <h3 class="descripcion">El terremoto de 1960 y tsunami de 1960 –ocurrido un 22 de mayo a las 15.11 horas–, es el más grande jamás registrado en la historia sísmica del mundo, y ocurrió en Chile. De dimensiones gigantescas, este megasismo causó un tsunami que azotó con fuerza más de 40 ciudades y cientos de localidades del centro-sur de Chile, cambiando para siempre la morfología de la costa chilena y la ciencia sísmica del mundo. Tuvo una fractura de más de 1.000 kilómetros, el epicentro ocurrió frente a las costas de Lebu y tuvo una magnitud entre 9.3 y 9,5.</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="collapse" id="local-los-rios" data-parent="#accordion-los-rios">
+                            <div class="row py-3 px-3">
+                                <div class="col-5 my-auto">
+                                    <img class="img-fluid" src="../img/bg-mapa/conocimiento-local-maule.jpg" alt="">
+                                </div>
+                                <div class="col-7 my-auto">
+                                    <h3 class="descripcion">Hace mucho tiempo, cuentan los antiguos mapuches, sobrevino una lucha entre dos serpientes: Kai Kai (agua) Treng Treng (cerros). Kai Kai, estaba disconforme con la manera corrupta en que se estaban comportando los seres humanos, así que decidió levantar las aguas del mar para castigarlos. Pero Treng Treng, que era piadosa, hizo subir la tierra sobre las aguas para que pudieran resguardarse. La lucha entre las serpientes duró mucho tiempo, ya que Kai Kai insistía en llevar al océano hacia la tierra, mientras Treng Treng levantaba las montañas para que los humanos escaparan. Solo cuando quedaron unas pocas familias poblando la tierra, Treng Treng  intercedió para que cesara la lluvia y el viento del este, ayudando a calmar las aguas. Kai Kai se replegó hacia el océano, pero a veces cuando ve que la gente actúa mal decide regresar. Cuando eso ocurre, todos saben que deben correr hacia los cerros, a la cima más alta, donde Treng Treng  se preocupa de cuidarlos.</h3>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                </div>
+                <div></div>
+            </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+                    <!-- XIV. Región de Los Lagos -->
+                    <div class="modal fade" id="lagos-chaiten" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                          <div class="modal-content ">
+                            <div  class="position-relative overflow-hidden ancho-card">
+                                <div class="card card-contenido">
+                                    <img class="card-img-top" src="../img/bg-mapa/volcanes.jpg" alt="imagen">
+                                    <img class="cerrar" data-dismiss="modal" src="../img/bg-mapa/cerrar.svg" alt="">
+                                    <div class="card-body">
+                                        <h2 class="card-title underline my-4">XIV. Región de Los Lagos</h2>
+                                        <div class="row position-relative overflow-hidden my-5">
+                                            <div class="col-3 d-flex justify-content-center">
+                                                <img class="img-fluid icono-amenazas" src="../img/bg-mapa/volcanes.svg" alt="">
+                                            </div>
+                                            <div class="col-5 text-card font-w-bold">
+                                                <h3>Erupción Volcánica</h3>
+                                                <h3>Chaitén</h3>
+                                            </div>     
+                                            <div class="col-4 text-card text-right font-w-light">
+                                                <h3>2 de mayo 2008</h3>
+                                            </div>                       
+                                        </div>
+                                        <div class="row position-relative overflow-hidden">
+                                            <div class="col-6 d-flex justify-content-center">
+                                                <a class="btn btn-primary btn-grey py-3" data-toggle="collapse" href="#cientifico-lagos-chaiten" role="button" aria-expanded="false" aria-controls="cientifico">Conocimiento científico</a>
+                                            </div>
+                                            <div class="col-6 d-flex justify-content-center">
+                                                <a class="btn btn-primary btn-grey py-3" data-toggle="collapse" href="#local-lagos-chaiten" role="button" aria-expanded="false" aria-controls="cientifico">Conocimiento local</a>
+                                            </div>                        
+                                        </div>
+                                        <div class="container my-5 fondo-gris" id="accordion-lagos-chaiten">
+                    
+                                            <div class="collapse" id="cientifico-lagos-chaiten" data-parent="#accordion-lagos-chaiten">
+                                                <div class="row py-3 px-3">
+                                                    <div class="col-5 my-auto">
+                                                        <img class="img-fluid" src="../img/bg-mapa/conocimiento-cientifico.jpg" alt="">
+                                                    </div>
+                                                    <div class="col-7 my-auto">
+                                                        <h3 class="descripcion">La última erupción del volcán Chaitén, antes de 2018, había ocurrido nueve mil años atrás. Por lo tanto, popularmente la gente no sabía que el Chaitén era un volcán, era un cerro pequeño que la gente usaba para paseos familiares. La erupción del 2 de mayo fue sorpresiva y violenta, con explosión de material volcánico sólido, lo que sumado al clima lluviosa de la zona, transformó las cenizas y lo que arrastró el río, en un gran aluvión que arrasó con parte de la ciudad. La columna eruptiva –chorro de gas que anuncia una erupción– se elevó por sobre la cordillera de los Andes y, debido a la dirección predominante del viento, las cenizas llegaron a Argentina e incluso hasta la costa atlántica.
+                                                        </h3>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="collapse" id="local-lagos-chaiten" data-parent="#accordion-lagos-chaiten">
+                                                <div class="row py-3 px-3">
+                                                    <div class="col-5 my-auto">
+                                                        <img class="img-fluid" src="../img/bg-mapa/conocimiento-local-maule.jpg" alt="">
+                                                    </div>
+                                                    <div class="col-7 my-auto">
+                                                        <h3 class="descripcion">Cuando Ngenechen terminó de crear a los humanos y a los animales, quiso despedirse de ellos antes de regresar al cielo. Pero antes de partir, los humanos le dijeron: “Te vas, pero, ¿cómo podremos llamarte te necesitemos?”. Entonces Ngenechen les dijo, “para escuchar su llamado, dejaré un intermediario llamado Kümehuenu, él los ayudará. Deben poner atención a su voz, y confiarle sus preocupaciones y angustias. Él me lo contara en voz baja y ustedes solo oirán un murmurar. Pero, si cometen maldades, su voz se escuchará fuerte y dura”. Luego de esta despedida, pasó el tiempo, y nunca más volvieron a ver a Ngenechen. Los hombres y mujeres se multiplicaron, formaron pueblos, y olvidaron a Kümehuenu. Pero Kümehuenu, pese al paso de los años, siguió murmurando e invitando a los humanos a continuar por el buen camino. Y a veces, a través de relámpagos, temblores, o con la explosión del fuego de los volcanes, sigue expresando su voz para que los hombres lo escuchen y recuerden así sus enseñanzas. </h3>
+                                                    </div>
+                                                </div>
+                                            </div>
+                    
+                                        </div>
+                    
+                    
+                                    </div>
+                                    <div></div>
+                                </div>
+                            </div>
+                    
+                          </div>
+                        </div>
+                      </div>
+
+
+                    <!-- XIV. Región de Los Lagos -->
+                    <div class="modal fade" id="lagos-calbuco" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                          <div class="modal-content ">
+                            <div  class="position-relative overflow-hidden ancho-card">
+                                <div class="card card-contenido">
+                                    <img class="card-img-top" src="../img/bg-mapa/volcanes.jpg" alt="imagen">
+                                    <img class="cerrar" data-dismiss="modal" src="../img/bg-mapa/cerrar.svg" alt="">
+                                    <div class="card-body">
+                                        <h2 class="card-title underline my-4">XIV. Región de Los Lagos</h2>
+                                        <div class="row position-relative overflow-hidden my-5">
+                                            <div class="col-3 d-flex justify-content-center">
+                                                <img class="img-fluid icono-amenazas" src="../img/bg-mapa/volcanes.svg" alt="">
+                                            </div>
+                                            <div class="col-5 text-card font-w-bold">
+                                                <h3>Erupción Volcánica</h3>
+                                                <h3>Calbuco</h3>
+                                            </div>     
+                                            <div class="col-4 text-card text-right font-w-light">
+                                                <h3>22 de abril 2015</h3>
+                                            </div>                       
+                                        </div>
+                                        <div class="row position-relative overflow-hidden">
+                                            <div class="col-6 d-flex justify-content-center">
+                                                <a class="btn btn-primary btn-grey py-3" data-toggle="collapse" href="#cientifico-lagos-calbuco" role="button" aria-expanded="false" aria-controls="cientifico">Conocimiento científico</a>
+                                            </div>
+                                            <div class="col-6 d-flex justify-content-center">
+                                                <a class="btn btn-primary btn-grey py-3" data-toggle="collapse" href="#local-lagos-calbuco" role="button" aria-expanded="false" aria-controls="cientifico">Conocimiento local</a>
+                                            </div>                        
+                                        </div>
+                                        <div class="container my-5 fondo-gris" id="accordion-lagos-calbuco">
+                    
+                                            <div class="collapse" id="cientifico-lagos-calbuco" data-parent="#accordion-lagos-calbuco">
+                                                <div class="row py-3 px-3">
+                                                    <div class="col-5 my-auto">
+                                                        <img class="img-fluid" src="../img/bg-mapa/conocimiento-cientifico.jpg" alt="">
+                                                    </div>
+                                                    <div class="col-7 my-auto">
+                                                        <h3 class="descripcion">El volcán Calbuco, tuvo un violento despertar el 22 de abril de 2015, después de 54 años sin actividad. Solo horas antes un enjambre de sismos serían la antesala de uno de los tres erupciones más explosivas de las últimas décadas en Chile. La erupción generó dos grandes pulsos eruptivos: el primero que duró una hora y media, con una columna de cenizas de unos 15 km de altura, además de pequeños flujos piroclásticos, y lahares. El segundo pulso comenzó en la madrugada, generó material explosivo de gases y rocas y lahares, afectando a localidades aledañas.
+                                                        </h3>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="collapse" id="local-lagos-calbuco" data-parent="#accordion-lagos-calbuco">
+                                                <div class="row py-3 px-3">
+                                                    <div class="col-5 my-auto">
+                                                        <img class="img-fluid" src="../img/bg-mapa/conocimiento-local-maule.jpg" alt="">
+                                                    </div>
+                                                    <div class="col-7 my-auto">
+                                                        <h3 class="descripcion">En tiempos pasados, existió el chelkurra, un cerro rocoso muy grande, que tenía forma humana. A veces, cuando despertaba, lanzaba trozos de rocas y fuego, y hacía temblar la tierra para daña a los humanos. El gigante era un Pillán viejo, lleno de ira y veneno. Cualquier persona que entrara a su territorio estaba perdida. Pero un día, mientras el Pillán dormía profundamente, las mujeres aprovecharon de acercarse de manera sigilosa y descubrieron que las enormes manos y pies del gigante eran de carne y hueso. Debido a que el chelkurra les había hecho mucho daño, comenzaron a enterrar estacas afiladas alrededor de su cuerpo, ocultas para que él no pudiera verlas. Luego le prendieron fuego y huyeron. Al poco rato, el gigante se dio cuenta que estaba ardiendo, y gritando se incorporó de un salto. La tierra se estremeció, mientras su cuerpo comenzó a arder hasta explotar en mil pedazos. Del cuerpo despedazado del gigante, crecieron todos los animales venenosos que existen en la tierra y, de su sangre quemada e hirviente, salió un polvo amarillo rojizo llamado chodwe, que los mapuche lo usan para teñir, y que dicen que si se pone al fuego, hace salir un animal.
+                                                        </h3>
+                                                    </div>
+                                                </div>
+                                            </div>
+                    
+                                        </div>
+                    
+                    
+                                    </div>
+                                    <div></div>
+                                </div>
+                            </div>
+                    
+                          </div>
+                        </div>
+                      </div>
+
+    <div class="bg-mapa">
+
+        <div class="container">
+            <div class="row">
+                <div id="amenazas-listado" class="card my-5">
+                    <div class="card-header">
+                        <span class="todas-amenazas">Listado amenazas</span>
+                        <span style="display:none" class="boton-ver"><img class="icon-sh" src="./show.svg" alt="show"><span class="texto-icon-sh">Ver</span></span>
+                        <span style="display:none" class="boton-esconder"><img class="icon-sh" src="./hide.svg" alt="hide"><span class="texto-icon-sh">Esconder</span></span>
+                    </div>
+                    <ul class="list-group list-group-flush listado-amenazas">
+                      <li class="list-group-item volcanes"><img class="img-fluid icono-amenazas" src="../img/bg-mapa/volcanes.svg">Erupciones volcánicas</li>
+                      <li class="list-group-item aluviones"><img class="img-fluid icono-amenazas" src="../img/bg-mapa/aluviones.svg">Aluviones</li>
+                      <li class="list-group-item terremotos"><img class="img-fluid icono-amenazas" src="../img/bg-mapa/terremotos.svg">Terremotos</li>
+                      <li class="list-group-item tsunamis"><img class="img-fluid icono-amenazas" src="../img/bg-mapa/tsunamis.svg">Tsunamis</li>
+                    </ul>
+                  </div>    
+
+            </div>
+            
+        </div>
+        <div class="bg-load-2"></div>
+        <div class="bg-load-3"></div>
+        <div class="bg-load-4"></div>
+        <div class="bg-load-5"></div>
+
+        <div class="bg-load-6"></div>
+        <div class="bg-load-7"></div>
+        <div class="bg-load-8"></div>
+        
+        <div class="zona-norte"></div>
+        <div class="zona-centro"></div>
+        <div class="zona-sur"></div>
+    </div>
+
+    <div>
+
+    </div>
+
+    </div>
+
+    <footer class="position-relative overflow-hidden text-center text-white">
+        <div class="row">
+          <div class="bg-rojo-footer col-sm-6 home-link">
+              <div class="row mx-5 my-5 ">
+                  <div class="col-sm-2 my-auto">
+                      <img class="img-fluid logo-white" src="../img/logo-white.svg" alt="Logotipo">
+                  </div>
+                  <div class="col-sm-4 text-left text-white my-auto footer-text">
+                      <div class="row">
+                          <h2>¡CHILE, TERRITORIO EN MOVIMIENTO!</h2>
+                      </div>
+                      <div class="row">
+                          <h3>Terremotos, tsunamis, aluviones, volcanes y otras amenazas</h3>
+                      </div>
+                  </div>
+                  <div class="col-sm-3 logo-footer">
+                    <img class="img-logo-fluid my-auto" src="../img/logo_cigiden.png" alt="Logotipo">
+                </div>
+                <div class="col-sm-3 logo-footer">
+                    <img class="img-logo-fluid my-auto" src="../img/logo_min.png" alt="Logotipo">
+                </div>
+                  <a href="#"></a>
+              </div>
+          </div>
+          <div class="col-sm-6 bg-amarillo-2">
+              <div class="row mx-5" style="height: 100%;">
+                  <div class="col-6 footer-text mt-2 my-auto">
+                      <div class="row social-media-txt">
+                          <h2>Contacto:</h2> 
+                          <h3 class="contacto"><a href="mailto:comunicaciones@cigiden.cl?Subject=Contacto%20Chile%20Territorio%20en%20Movimiento">comunicaciones@cigiden.cl</a></h3>
+                          <h2>Prensa:</h2> 
+                          <h3 class="contacto"><a href="mailto:debora.gutierrez@cigiden.cl?Subject=Prensa%20Chile%20Territorio%20en%20Movimiento">debora.gutierrez@cigiden.cl</a></h3>
+                      </div>       
+                  </div>
+                  <div class="col-6 footer-text mt-2 my-auto">
+                      <div class="row" >
+                          <h2 style="width: 100%; text-align: center;">¡Síguenos!</h2> 
+                      </div>   
+                      <div class="row">
+                          <div class="col-12">
+                              <a href="https://www.instagram.com/explore/tags/chileterritorioenmovimiento/" target="_blank"><img class="social-media" src="../img/ig.svg" alt=""></a>
+                              <a href="https://www.facebook.com/hashtag/chileterritorioenmovimiento" target="_blank"><img class="social-media" src="../img/fb.svg" alt=""></a>
+                              <a href="https://twitter.com/hashtag/Chileterritorioenmovimiento" target="_blank"><img class="social-media" src="../img/tw.svg" alt=""></a>              
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      </footer>
+
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/script.js"></script>
+    <script>window.jQuery || document.write('<script src="../js/jquery-slim.min.js"><\/script>')</script>
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/holder.min.js"></script>
+  
+
+</body></html>

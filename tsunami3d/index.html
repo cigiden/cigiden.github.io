@@ -1,0 +1,1218 @@
+<!DOCTYPE html>
+
+<html lang="en"><link type="text/css" rel="stylesheet" id="dark-mode-general-link"><link type="text/css" rel="stylesheet" id="dark-mode-custom-link"><style type="text/css" id="dark-mode-custom-style"></style><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="apple-touch-icon" sizes="57x57" href="../apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="../apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="../apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="../apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="../apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="../apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="../apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="../apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="../android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="../favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
+    <link rel="manifest" href="../manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="../ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <title>Inundación por Tsunami - Territorio en Movimiento</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/product/">
+
+    <!-- Bootstrap core CSS -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles -->
+    <link href="../css/style.css" rel="stylesheet">
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-QSJSBMJMNR"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-QSJSBMJMNR');
+</script>
+  </head>
+
+  <body>
+
+
+    <div class="bg-azul-2 position-relative text-center my-auto">
+        <div class="container position-relative">
+            <div class="row container padding-right">
+                <div class="col-6">
+                    <div class="row my-5 mr-3 home-link">
+                        <div style="padding-left: 0px !important; padding-right: 20px !important;" class="col-sm-4 ">
+                            <img class="img-fluid my-auto" src="../img/logo.svg" alt="Logotipo">
+                        </div>
+                        <div class="col-sm-8 text-left text-white my-auto">
+                            <div class="row">
+                                <h2>¡CHILE, TERRITORIO EN MOVIMIENTO!</h2>
+                            </div>
+                            <div class="row">
+                                <h3>Terremotos, tsunamis, aluviones, volcanes y otras amenazas</h3>
+                            </div>
+                        </div>
+                        <a href="../"></a>
+                    </div>
+                </div>
+                <div class="col-6 my-auto menu-derecha text-right">
+                    <ul class="list-group texto-blanco">
+                        <a href="../" class="list-group-item list-group-item-action">Inicio</a>
+                        <a href="../about" class="list-group-item list-group-item-action">Proyecto</a>
+                        <a href="../contacto" class="list-group-item list-group-item-action">Contacto</a>
+                    </ul>
+                </div>
+
+                <div class="row ml-5 mb-5 mr-3 text-white text-center">
+                    <div class="col-sm-6 my-auto">
+                            <h1 style="font-size: 1rem !important;" class="my-auto">Experimenta, conoce y aprende con los simuladores 3D de CIGIDEN</h1>
+                    </div>
+                    <div class="col-sm-6 my-auto dropdown-menu-sec">
+                        <div class="dropdown show text-center ">
+                            <a class="btn btn-secondary dropdown-toggle naranjo px-5 py-3 simulaciones-boton" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Simulaciones
+                            </a>
+                            
+                            <div class="dropdown-menu experimenta-conoce-menu" aria-labelledby="dropdownMenuLink">
+                                <a class="dropdown-item" href="../mapa-interactivo/">Mapa digital de amenazas y desastres</a>
+                                <a class="dropdown-item" href="../multiamenaza/">Chile territorio vulnerable y expuesto</a>
+                                <a class="dropdown-item" href="../tsunamilab/">Tsunami, un fenómeno global</a>
+                                <a class="dropdown-item" href="../tsunami3d/">Inundación por Tsunami</a>
+                                <a class="dropdown-item" href="../aluviones/">Riesgo de aluviones</a>
+                                <a class="dropdown-item" href="../volcanes/">Erupciones volcánicas y lahares</a> 
+                                <a class="dropdown-item" href="../muestravirtual/">Muestra virtual tridimensional</a>
+                            </div>
+                        </div>   
+                    </div>
+
+                </div>
+
+            </div>
+            
+        </div>
+    </div>
+
+
+
+    <div class="container position-relative overflow-hidden">
+        <div class="row my-3 mx-1">
+            <div class="col-sm-12 my-5 titulo">
+                    <h1>Módulo 3: Inundación por Tsunami</h1>
+                    <div class="dropdown show text-left mt-4 ">
+                        <a class="btn btn-secondary dropdown-toggle naranjo px-5 py-3" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Selecciona Ubicación
+                        </a>
+                      
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                          <div class="dropdown-item click-valparaiso">Valparaíso</div>
+                          <div class="dropdown-item click-cartagena">Cartagena</div>
+                          <div class="dropdown-item click-talcahuano">Talcahuano</div>
+                          <div class="dropdown-item click-iquique">Iquique</div> 
+                        </div>
+                      </div>   
+
+            </div>
+            <div id="valparaiso" class="row">
+                <div class="col-sm-4 my-1 text-center p-descripcion">
+                    <video autoplay id="video-valparaiso" class="video-hablando" width="100%" controls height="auto" style="outline: none;" controlsList="nofullscreen nodownload noremoteplayback">
+                        <script>
+                            var video = document.currentScript.parentElement;
+                            video.volume = 0.3;
+                        </script>
+                    <source src="valparaiso.mp4" type="video/mp4">                    
+                    </video>
+                    <p class="nombre-investigador font-weight-bold">Patricio Catalán</p>
+                    <p class="nombre-investigador">Ingeniero y académico USM</p>
+                </div>
+                <div class="col-sm-8 my-1 text-left p-descripcion">
+                    <h1 class="mb-3">Valparaíso</h1>
+                    <p>Esta simulación de tsunami proyectada sobre un relieve 3D a escala de la bahía de Valparaíso, muestra lo que ocurriría si un terremoto y posterior tsunami –tan grande como el que ocurrió en la zona central en 1730– afectase hoy a la ciudad de Valparaíso.</p>
+                    <div id="canvas" class="" style="">
+                        <div class="container-icono-3d">
+                            <div class="interact-icon-360-container" style="visibility: visible;">
+                                <div class="animation-wrapper">
+                                  <img class="icon-360" src="flecha.png">
+                                  <img class="hand-360 wobble-hor-bottom" src="mano.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 my-5">
+                    <h1 class="my-5">Aprende más con nuestros investigadores</h1>
+                    <div class="row">
+                        <div class="col-4 preguntas-tsunami">
+                          <div class="list-group" id="list-tab" role="tablist">
+                            <a class="list-group-item list-group-item-action active" id="valparaiso-p-1-list" data-toggle="list" href="#valparaiso-p-1" role="tab" aria-controls="valparaiso-p1">Historia de tsunamis en Valparaíso</a>
+                            <a class="list-group-item list-group-item-action" id="valparaiso-p-3-list" data-toggle="list" href="#valparaiso-p-2" role="tab" aria-controls="valparaiso-p2">¿Qué hacer en caso de tsunami?</a>
+                            <a class="list-group-item list-group-item-action" id="valparaiso-p-3-list" data-toggle="list" href="#valparaiso-p-3" role="tab" aria-controls="valparaiso-p3">¡Inspírate por la ciencia!</a>
+                          </div>
+                        </div>
+                        <div class="col-8">
+                            
+
+                          <div class="tab-content" id="nav-tabContent">
+                            <div class="tab-pane fade show active" id="valparaiso-p-1" role="tabpanel" aria-labelledby="valparaiso-p-1-list">
+                                <h4 class="titulo-pregunta">1. ¿Por qué es importante recordar los tsunamis en Valparaíso?</h4>
+                                <audio class="my-4 audio-pregunta" controls controlsList="nodownload">
+                                    <script>
+                                        var video = document.currentScript.parentElement;
+                                        video.volume = 0.18;
+                                    </script>
+                                    <source src="valparaiso-audio-1.mp3" type="audio/mpeg">
+                                </audio>
+                                <p>Los tsunamis son eventos que se repiten a lo largo del tiempo y a lo largo de nuestra historia hemos tenido muchos tsunamis que han afectado a todo el país. Por lo tanto, lo que tenemos que tratar de hacer es mantenernos preparados ante ellos y la mejor forma de mantenernos preparados, es conocer cómo se comportan y saber cómo prepararnos  como población, para saber reaccionar y así saber qué hacer.</p>
+                                <p>En el caso de la región de Valparaíso, nos preocupamos particularmente de ella, puesto que muchos de los tsunamis que han ocurrido y que la gente recuerda no han generado un gran daño a la región de Valparaíso. Eso es un problema, puesto que la gente piensa, que en Valparaíso no ocurren tsunamis, sin embargo nosotros sabemos que en 1730 hubo un terremoto que generó un gran tsunami en Valparaíso. Si ocurrió una vez en el pasado, va a ocurrir de nuevo y por lo tanto, tenemos que prepararnos. </p>
+            
+                            </div>
+                            <div class="tab-pane fade" id="valparaiso-p-2" role="tabpanel" aria-labelledby="valparaiso-p-2-list">
+                                <h4 class="titulo-pregunta">2. ¿Qué podemos hacer si ocurre un tsunami en Valparaíso o en Chile? </h4>
+                                <audio class="my-4 audio-pregunta" controls controlsList="nodownload">
+                                    <script>
+                                        var video = document.currentScript.parentElement;
+                                        video.volume = 0.15;
+                                    </script>
+                                    <source src="valparaiso-audio-2.mp3" type="audio/mpeg">
+                                </audio>
+                                <p>Los tsunamis pueden ocurrir en cualquier momento. Los tsunamis más frecuentes ocurren después de un gran terremoto. Por lo tanto, para nosotros como población, esa va a ser la primera señal. Si estás en la costa y sientes un terremoto que es muy largo, más de 30 segundos y es muy fuerte, tan fuerte que no deja mantenerte en pie, es posible que ese terremoto haya generado un tsunami. En ese caso, antes incluso de esperar una confirmación oficial, debes tratar de dirigirte a puntos altos. Ojalá a un cerro, el cerro que esté lo más cerca tuyo posible, alejándote del agua e incluso alejándote de los ríos. Debes tratar de llegar lo más rápido posible y permanecer en ese punto alto hasta que exista información oficial de parte de ONEMI. Es importante también saber, que aunque las primeras inundaciones pueden llegar en minutos, las olas más grandes pueden en algunos casos llegar incluso horas después del terremoto.</p>
+            
+                            </div>
+                            <div class="tab-pane fade" id="valparaiso-p-3" role="tabpanel" aria-labelledby="valparaiso-p-3-list">
+                                <h4 class="titulo-pregunta">3. ¿Por qué estudié esta disciplina de la ciencia?</h4>
+                                <audio class="my-4 audio-pregunta" controls controlsList="nodownload">
+                                    <script>
+                                        var video = document.currentScript.parentElement;
+                                        video.volume = 0.17;
+                                    </script>
+                                    <source src="valparaiso-audio-3.mp3" type="audio/mpeg">
+                                </audio>
+                                <p>Para ser un científico, no es necesario ocupar una bata blanca, ni ocupar lentes, lo más importante es tener una gran curiosidad y ganas de aprender de lo que ocurre en la naturaleza, también en las ciencias sociales y otros aspectos. A mi lo que me interesa en general es saber cómo se comporta el mar y uno de los aspectos más importantes que hemos visto y es relevante aquí en Chile, es el comportamiento que tiene el mar durante los tsunamis. Siempre me ha fascinado el mar, pero luego del terremoto de 2010 me di cuenta que nos faltaba mucho por conocer y comprender acerca de los tsunamis y por lo tanto, he tratado de cuestionarse y preguntarse qué es lo que haría el mar y cómo podríamos mejorar para que no nos cause tantos problemas, ni tanto daño. Entonces, me interesa entenderlo muy bien, pero también poder utilizar ese conocimiento para mejorar la vida de todos nosotros.</p>
+            
+                            </div>
+                          </div>
+                        </div>
+                    </div>  
+                </div>
+                
+            </div>
+
+            <div id="cartagena" class="row" style="display: none;">
+                <div class="col-sm-4 my-1 text-center p-descripcion">
+                    <video id="video-cartagena" class="video-hablando" width="100%" height="auto" controls style="outline: none;" controlsList="nofullscreen nodownload noremoteplayback">
+                        <script>
+                            var video = document.currentScript.parentElement;
+                            video.volume = 0.5;
+                        </script>
+
+                        <source src="cartagena.mp4" type="video/mp4">                    
+                    </video>
+                    <p class="nombre-investigador font-weight-bold">Alejandra Gubler</p>
+                    <p class="nombre-investigador">Académico USM</p>
+                </div>
+                <div class="col-sm-8 my-1 text-left p-descripcion">
+                    <h1 class="mb-3">Cartagena</h1>
+                    <p>Esta simulación de tsunami proyectada sobre un relieve 3D a escala de Cartagena, muestra lo que ocurriría si un terremoto y posterior tsunami –tan grande como el que ocurrió en la zona en 1730 que tuvo una magnitud de 9.3– afectase hoy a la ciudad de Cartagena.</p>
+                    <div id="canvas-cartagena" class="" style="">
+                        <div class="container-icono-3d">
+                            <div class="interact-icon-360-container" style="visibility: visible;">
+                                <div class="animation-wrapper">
+                                  <img class="icon-360" src="flecha.png">
+                                  <img class="hand-360 wobble-hor-bottom" src="mano.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 my-5">
+                    <h1 class="my-5">Aprende más con nuestros investigadores</h1>
+                    <div class="row">
+                        <div class="col-4 preguntas-tsunami">
+                          <div class="list-group" id="list-tab" role="tablist">
+                            <a class="list-group-item list-group-item-action active" id="cartagena-p-1-list" data-toggle="list" href="#cartagena-p-1" role="tab" aria-controls="cartagena-p1">Historia de tsunamis en Cartagena</a>
+                            <a class="list-group-item list-group-item-action" id="cartagena-p-3-list" data-toggle="list" href="#cartagena-p-2" role="tab" aria-controls="cartagena-p2">¿Qué hacer en caso de tsunami?</a>
+                            <a class="list-group-item list-group-item-action" id="cartagena-p-3-list" data-toggle="list" href="#cartagena-p-3" role="tab" aria-controls="cartagena-p3">¡Inspírate por la ciencia!</a>
+                          </div>
+                        </div>
+                        <div class="col-8">
+                            
+
+                          <div class="tab-content" id="nav-tabContent">
+                            <div class="tab-pane fade show active" id="cartagena-p-1" role="tabpanel" aria-labelledby="cartagena-p-1-list">
+                                <h4 class="titulo-pregunta">1. ¿Por qué es importante recordar el tsunami de 1730 en Cartagena?</h4>
+                                <audio class="my-4 audio-pregunta" controls controlsList="nodownload">
+                                    <source src="cartagena-audio-1.mp3" type="audio/mpeg">
+                                        <script>
+                                            var video = document.currentScript.parentElement;
+                                            video.volume = 0.1;
+                                        </script>
+                                </audio>
+                                <p>La Bahía de Cartagena, una de las zonas más pobladas e impactadas por el efecto humano de Chile y parte de su principal área metropolitana está en la costa. Frente al peor escenario para la zona centro de Chile, la ciudadanía debe estar preparada, conocer las zonas de inundación por tsunami, las vías de evacuación y el lugar establecido por la autoridad competente como “zona segura”.</p>
+            
+                            </div>
+                            <div class="tab-pane fade" id="cartagena-p-2" role="tabpanel" aria-labelledby="cartagena-p-2-list">
+                                <h4 class="titulo-pregunta">2. ¿Qué hacer en caso de ocurrir un determinado tsunami en Cartagena?</h4>
+                                <audio class="my-4 audio-pregunta" controls controlsList="nodownload">
+                                    <source src="cartagena-audio-2.mp3" type="audio/mpeg">
+                                        <script>
+                                            var video = document.currentScript.parentElement;
+                                            video.volume = 0.1;
+                                        </script>
+                                </audio>
+                                <p>Los tsunamis pueden ocurrir en cualquier momento, por lo tanto, si vives en la costa averigua las zonas seguras en tu barrio, las vías de evacuación y conoce su entorno y los riesgos que existen. Ahora si ocurre un terremoto y estás en la costa y sientes que es muy largo, más de 30 segundos y es muy fuerte, tan fuerte que no deja mantenerte en pie, es posible que genere un tsunami. En ese caso debes autoevacuar. Ojalá a un cerro, el cerro que esté lo más cerca tuyo posible, alejándote del agua e incluso alejándote de los ríos. Debes tratar de llegar lo más rápido posible y permanecer en ese punto alto al menos media hora. Por lo menos, porque el tsunami puede llegar en cualquier momento y a veces se demora un poco en llegar. Lo importante es evacuar rápidamente.</p>            
+                            </div>
+                            <div class="tab-pane fade" id="cartagena-p-3" role="tabpanel" aria-labelledby="cartagena-p-3-list">
+                                <h4 class="titulo-pregunta">3. ¿Por qué estudié esta disciplina de la ciencia?</h4>
+                                <audio class="my-4 audio-pregunta" controls controlsList="nodownload">
+                                    <source src="cartagena-audio-3.mp3" type="audio/mpeg">
+                                        <script>
+                                            var video = document.currentScript.parentElement;
+                                            video.volume = 0.1;
+                                        </script>
+                                </audio>
+                                <p>Estudié la carrera de ingeniería civil porque es una carrera que más allá de mi gusto por las matemáticas y la física, es una disciplina cuyos resultados, que son las obras de ingeniería, están y quedan al servicio de la comunidad. Por ejemplo, la simpleza de abrir una llave y poder tomar agua o poder bañarse, tiene por detrás el aporte de siglos de conocimiento técnico y práctico de ingenieros civiles, que ha permitido el desarrollo actual de la humanidad. Los avances en hidráulica, como la distribución de agua potable, el alcantarillado, el tratamiento de agua, los embalses que permiten regar nuestras frutas y verduras, las centrales hidroeléctricas, los puentes y caminos, y muchos otros, han sido fundamentales para el desarrollo de la humanidad. Sin estas obras de ingeniería la vida sería durísima. Por lo tanto, el impacto que tiene la ingeniería civil sobre la humanidad es importantísimo. En mi caso, en los últimos años me he dedicado a la investigación de tsunamis en Chile, y he participado en un proyecto que desarrolló un sistema de alertas para la predicción de tsunamis. Este también es un proyecto de interés público que se pone al servicio de la comunidad, ya que el  objetivo es poder  salvaguardar vidas ante un tsunami generado por terremotos.</p>
+                            </div>
+                          </div>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+
+            <div id="talcahuano" class="row" style="display: none;">
+                <div class="col-sm-4 my-1 text-center p-descripcion">
+                    <video id="video-talcahuano" class="video-hablando" width="100%" height="auto" controls style="outline: none;" controlsList="nofullscreen nodownload noremoteplayback">
+                    <source src="talcahuano.mp4" type="video/mp4">                    
+                    </video>
+                    <p class="nombre-investigador font-weight-bold">Rafael Aránguiz</p>
+                    <p class="nombre-investigador">Académico UCSC</p>
+                </div>
+                <div class="col-sm-8 my-1 text-left p-descripcion">
+                    <h1 class="mb-3">Talcahuano</h1>
+                    <p>Esta simulación de tsunami proyectada sobre un relieve 3D a escala Iquique, muestra lo que ocurriría si un terremoto y posterior tsunami –tan grande como el que ocurrió en la zona 2010 que tuvo una magnitud de 8.8– afectase hoy a la ciudad de Talcahuano.</p>
+                    <div id="canvas-talcahuano" class="" style="">
+                        <div class="container-icono-3d">
+                            <div class="interact-icon-360-container" style="visibility: visible;">
+                                <div class="animation-wrapper">
+                                  <img class="icon-360" src="flecha.png">
+                                  <img class="hand-360 wobble-hor-bottom" src="mano.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 my-5">
+                    <h1 class="my-5">Aprende más con nuestros investigadores</h1>
+                    <div class="row">
+                        <div class="col-4 preguntas-tsunami">
+                          <div class="list-group" id="list-tab" role="tablist">
+                            <a class="list-group-item list-group-item-action active" id="talcahuano-p-1-list" data-toggle="list" href="#talcahuano-p-1" role="tab" aria-controls="talcahuano-p1">Historia de tsunamis en Talcahuano</a>
+                            <a class="list-group-item list-group-item-action" id="talcahuano-p-3-list" data-toggle="list" href="#talcahuano-p-2" role="tab" aria-controls="talcahuano-p2">¿Qué hacer en caso de tsunami?</a>
+                            <a class="list-group-item list-group-item-action" id="talcahuano-p-3-list" data-toggle="list" href="#talcahuano-p-3" role="tab" aria-controls="talcahuano-p3">¡Inspírate por la ciencia!</a>
+                          </div>
+                        </div>
+                        <div class="col-8">
+                            
+
+                          <div class="tab-content" id="nav-tabContent">
+                            <div class="tab-pane fade show active" id="talcahuano-p-1" role="tabpanel" aria-labelledby="talcahuano-p-1-list">
+                                <h4 class="titulo-pregunta">1. ¿Por qué es importante recordar los tsunamis de 2010 particularmente Talcahuano y Biobío?</h4>
+                                <audio class="my-4 audio-pregunta" controls controlsList="nodownload">
+                                    <source src="talcahuano-audio-1.ogg" type="audio/ogg">
+                                        <script>
+                                            var video = document.currentScript.parentElement;
+                                            video.volume = 0.4;
+                                        </script>
+                                </audio>
+                                <p>Es importante recordar estos fenómenos, porque la historia nos ha demostrado que no son hechos aislados y que han ocurrido al menos cuatro eventos similares en esta zona del país. Incluso, la ciudad de Concepción se trasladó desde su emplazamiento original en Penco, hasta donde hoy está ubicada, debido a que un tsunami la destruyó en 1751. Esa fue la primera medida de mitigación frente a tsunamis que se ha realizado en Chile. Por lo tanto, es importante estar conscientes de que estos fenómenos pueden volver a ocurrir y debemos estar preparados, así como contribuir al desarrollo de ciudades más resilientes.
+                                </p>
+                            </div>
+                            <div class="tab-pane fade" id="talcahuano-p-2" role="tabpanel" aria-labelledby="talcahuano-p-2-list">
+                                <h4 class="titulo-pregunta">2. ¿Qué hacer en caso de ocurrir un determinado tsunami en Talcahuano hoy?</h4>
+                                <audio class="my-4 audio-pregunta" controls controlsList="nodownload">
+                                    <source src="talcahuano-audio-2.ogg" type="audio/ogg">
+                                        <script>
+                                            var video = document.currentScript.parentElement;
+                                            video.volume = 0.4;
+                                        </script>
+                                </audio>
+                                <p>Hay varias cosas que debo hacer. 1. Antes de que ocurra un evento, debo verificar si estoy o no en una zona potencialmente inundable. 2. haber identificado las vías de evacuación y las zonas seguras. En caso de ocurrir un terremoto en el que no pueda mantenerme en pie, lo más seguro es que ocurra un tsunami, por lo tanto se debe reunir toda la familia y autoevacuar hacia zonas altas si es que estoy en una zona baja o cerca de la costa. No hay tiempo que perder. Se debe evacuar inmediatamente hacia zonas altas. Además, es importante tener un kit de emergencia con cosas básicas como una interna, agua, comida no perecible y ropa abrigada, ya que el tsunami puede ocurrir de noche y durar varias horas, por lo que debo esperar en la zona segura hasta que la autoridad determine que ha pasado el peligro.</p>
+                            </div>
+                            <div class="tab-pane fade" id="talcahuano-p-3" role="tabpanel" aria-labelledby="talcahuano-p-3-list">
+                                <h4 class="titulo-pregunta">3. ¿Por qué estudié esta disciplina de la ciencia?</h4>
+                                <audio class="my-4 audio-pregunta" controls controlsList="nodownload">
+                                    <source src="talcahuano-audio-3.ogg" type="audio/ogg">
+                                        <script>
+                                            var video = document.currentScript.parentElement;
+                                            video.volume = 0.4;
+                                        </script>
+                                </audio>
+                                <p>Desde chico siempre me preguntaba cómo ocurrían algunos fenómenos, era bien curioso la verdad. Quería saber cómo ocurrían los terremotos, pues crecí escuchando historias del terremoto de 1960. Es así como estudié primero ingeniería y luego ingeniería de costas. En 2010 –cuando ocurre el terremoto y tsunami en Chile– me di cuenta que habían muchas cosas que no podíamos explicar respecto al tsunami. </p>
+                                <p>Hay mucho conocimiento sobre el diseño de edificios, cuya construcción es de clase mundial, pero no así en cuanto a tsunamis. Por lo tanto, me dediqué a investigar estos fenómenos y así poder explicar los misterios que rodeaban el tsunami de 2010. Los tsunamis son más recurrentes de lo que pensábamos y nuestra historia ha estado marcada por ellos. Uno de mis objetivos es poder dar a conocer lo que he aprendido y descubierto para que las nuevas generaciones sean más conscientes de este peligro, puedan estar mejor preparadas y, de esta manera, evitar pérdidas de vidas humanas.</p>
+                            </div>
+                          </div>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+
+            <div id="iquique" class="row" style="display: none;">
+                <div class="col-sm-4 my-1 text-center p-descripcion">
+                    <video id="video-iquique" class="video-hablando" width="100%" height="auto" controls style="outline: none;" controlsList="nofullscreen nodownload noremoteplayback">
+                    <source src="iquique.mp4" type="video/mp4">                    
+                    </video>
+                    <p class="nombre-investigador font-weight-bold">Juan González</p>
+                    <p class="nombre-investigador">Académico UCSC</p>
+                </div>
+                <div class="col-sm-8 my-1 text-left p-descripcion">
+                    <h1 class="mb-3">Iquique</h1>
+                    <p>Esta simulación de tsunami proyectada sobre un relieve 3D a escala Iquique, muestra lo que ocurriría si un terremoto y posterior tsunami –tan grande como el que ocurrió en la zona en 2014 que tuvo una magnitud de 8.1– afectase hoy a la ciudad de Iquique.</p>
+                    <div id="canvas-iquique" class="" style="">
+                        <div class="container-icono-3d">
+                            <div class="interact-icon-360-container" style="visibility: visible;">
+                                <div class="animation-wrapper">
+                                  <img class="icon-360" src="flecha.png">
+                                  <img class="hand-360 wobble-hor-bottom" src="mano.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 my-5">
+                    <h1 class="my-5">Aprende más con nuestros investigadores</h1>
+                    <div class="row">
+                        <div class="col-4 preguntas-tsunami">
+                          <div class="list-group" id="list-tab" role="tablist">
+                            <a class="list-group-item list-group-item-action active" id="iquique-p-1-list" data-toggle="list" href="#iquique-p-1" role="tab" aria-controls="iquique-p1">Historia de tsunamis en Iquique</a>
+                            <a class="list-group-item list-group-item-action" id="iquique-p-3-list" data-toggle="list" href="#iquique-p-2" role="tab" aria-controls="iquique-p2">¿Qué hacer en caso de tsunami?</a>
+                            <a class="list-group-item list-group-item-action" id="iquique-p-3-list" data-toggle="list" href="#iquique-p-3" role="tab" aria-controls="iquique-p3">¡Inspírate por la ciencia!</a>
+                          </div>
+                        </div>
+                        <div class="col-8">
+                            
+
+                          <div class="tab-content" id="nav-tabContent">
+                            <div class="tab-pane fade show active" id="iquique-p-1" role="tabpanel" aria-labelledby="iquique-p-1-list">
+                                <h4 class="titulo-pregunta">1. ¿Por qué es importante recordar el tsunami de 2014, particularmente en Iquique y en la región de Tarapacá?</h4>
+                                <audio class="my-4 audio-pregunta" controls controlsList="nodownload">
+                                    <source src="iquique-audio-1.ogg" type="audio/ogg">
+                                        <script>
+                                            var video = document.currentScript.parentElement;
+                                            video.volume = 0.35;
+                                        </script>
+                                </audio>
+                                <p>La zona norte de Chile entre las ciudades de Arica y Antofagasta presenta un alto nivel de amenaza de tsunami, debido a que el último gran evento de tsunami ocurrió en 1877 (hace 143 años). El evento de tsunami de 2014, si bien es un evento menor, puede darnos pistas de cómo actuar y que debemos hacer en caso de la ocurrencia de un tsunami. Las primeras olas de un tsunami pueden arribar a la costa en menos de 15 minutos posterior al terremoto, por lo tanto, es importante evacuar a la brevedad las zonas en riesgo de ser inundadas. La actividad de tsunami puede durar varias horas, por tanto, es necesario mantenerse alejado de la costa y evacuado hacia la zona segura.</p>
+                            </div>
+                            <div class="tab-pane fade" id="iquique-p-2" role="tabpanel" aria-labelledby="iquique-p-2-list">
+                                <h4 class="titulo-pregunta">2. ¿Qué hacer en caso de ocurrir un determinado tsunami hoy en Iquique?</h4>
+                                <audio class="my-4 audio-pregunta" controls controlsList="nodownload">
+                                    <source src="iquique-audio-2.ogg" type="audio/ogg">
+                                        <script>
+                                            var video = document.currentScript.parentElement;
+                                            video.volume = 0.35;
+                                        </script>
+                                </audio>
+                                <p>En el caso de ocurrencia de un tsunami en la ciudad de Iquique, es necesario evacuar a la brevedad a la zona segura más alta (cota 30 metros) o hacia edificios de evacuación vertical, siguiendo las instrucciones difundidas por la autoridad competente. Debido a que la actividad del tsunami puede durar varias horas, es necesario mantenerse en la zona segura hasta ser informado por la autoridad del término de la evacuación. Debido a que los terremotos y tsunamis son fenómenos naturales que no podemos predecir es necesario estar preparado, identificando la ruta de evacuación óptima y la ubicación de la zona de seguridad indicada por la autoridad.</p>
+                            </div>
+                            <div class="tab-pane fade" id="iquique-p-3" role="tabpanel" aria-labelledby="iquique-p-3-list">
+                                <h4 class="titulo-pregunta">3. ¿Por qué estudié esta disciplina de la ciencia?</h4>
+                                <audio class="my-4 audio-pregunta" controls controlsList="nodownload">
+                                    <source src="iquique-audio-3.ogg" type="audio/ogg">
+                                        <script>
+                                            var video = document.currentScript.parentElement;
+                                            video.volume = 0.35;
+                                        </script>
+                                </audio>
+                                <p>Desde pequeño, mi vida estuvo ligada al océano, siempre viviendo en ciudades costeras como Valparaíso, Arica y Antofagasta. El océano siempre generó muchas preguntas, que fueron respondidas cuando comencé a estudiar la carrera de oceanografía y pude entender que todos los fenómenos que vemos en el océano como las olas, las corrientes, el color del mar y la vida marina es una construcción perfecta regida por leyes físicas que podemos conocer por medio de la ciencia. Cuando comencé a trabajar en tsunamis, sentí la necesidad de conocer un poco más de cómo la Tierra, por medio de los terremotos, se relaciona con el océano y generan un evento catastróficos.
+                                </p>
+                                <p>La ciencia tiene una estructura ordenada para conocer un fenómeno natural y siguiendo una especie de “receta de cocina” llamada método científico, de esta manera, podemos probar distintas hipótesis o ideas acerca del fenómeno que estamos estudiando. La investigación en tsunami apunta a mejorar la calidad de vida de las personas, en la medida que le entrega las herramientas para estar mejor preparada.</p>
+                            </div>
+                          </div>
+                        </div>
+                    </div>  
+                </div>
+                        </div>
+
+        
+        </div>
+    </div>
+
+    <div class="container position-relative overflow-hidden text-center my-5">
+
+    </div>
+
+
+
+    </div>
+
+    <footer class="position-relative overflow-hidden text-center text-white">
+        <div class="row">
+          <div class="bg-rojo-footer col-sm-6 home-link">
+              <div class="row mx-5 my-5 ">
+                  <div class="col-sm-2 my-auto">
+                      <img class="img-fluid logo-white" src="../img/logo-white.svg" alt="Logotipo">
+                  </div>
+                  <div class="col-sm-4 text-left text-white my-auto footer-text">
+                      <div class="row">
+                          <h2>¡CHILE, TERRITORIO EN MOVIMIENTO!</h2>
+                      </div>
+                      <div class="row">
+                          <h3>Terremotos, tsunamis, aluviones, volcanes y otras amenazas</h3>
+                      </div>
+                  </div>
+                  <div class="col-sm-3 logo-footer">
+                    <img class="img-logo-fluid my-auto" src="../img/logo_cigiden.png" alt="Logotipo">
+                </div>
+                <div class="col-sm-3 logo-footer">
+                    <img class="img-logo-fluid my-auto" src="../img/logo_min.png" alt="Logotipo">
+                </div>
+                  <a href="#"></a>
+              </div>
+          </div>
+          <div class="col-sm-6 bg-amarillo-2">
+              <div class="row mx-5" style="height: 100%;">
+                  <div class="col-6 footer-text mt-2 my-auto">
+                      <div class="row social-media-txt">
+                          <h2>Contacto:</h2> 
+                          <h3 class="contacto"><a href="mailto:comunicaciones@cigiden.cl?Subject=Contacto%20Chile%20Territorio%20en%20Movimiento">comunicaciones@cigiden.cl</a></h3>
+                          <h2>Prensa:</h2> 
+                          <h3 class="contacto"><a href="mailto:debora.gutierrez@cigiden.cl?Subject=Prensa%20Chile%20Territorio%20en%20Movimiento">debora.gutierrez@cigiden.cl</a></h3>
+                      </div>       
+                  </div>
+                  <div class="col-6 footer-text mt-2 my-auto">
+                      <div class="row" >
+                          <h2 style="width: 100%; text-align: center;">¡Síguenos!</h2> 
+                      </div>   
+                      <div class="row">
+                          <div class="col-12">
+                              <a href="https://www.instagram.com/explore/tags/chileterritorioenmovimiento/" target="_blank"><img class="social-media" src="../img/ig.svg" alt=""></a>
+                              <a href="https://www.facebook.com/hashtag/chileterritorioenmovimiento" target="_blank"><img class="social-media" src="../img/fb.svg" alt=""></a>
+                              <a href="https://twitter.com/hashtag/Chileterritorioenmovimiento" target="_blank"><img class="social-media" src="../img/tw.svg" alt=""></a>              
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      </footer>
+
+
+    <video id="valparaiso-tsunami" loop autoplay muted crossOrigin="anonymous" playsinline style="display: none;">
+        <source src="textures/valparaiso-v2.mp4" type="video/mp4">
+    </video>
+
+    <video id="cartagena-tsunami" loop autoplay muted crossOrigin="anonymous" playsinline style="display: none;">
+        <source src="cartagena-s.mp4" type="video/mp4">
+    </video>
+
+    <video id="talcahuano-tsunami" loop autoplay muted crossOrigin="anonymous" playsinline style="display: none;">
+        <source src="talcahuano-s.mp4" type="video/mp4">
+    </video>
+
+    <video id="iquique-tsunami" loop autoplay muted crossOrigin="anonymous" playsinline style="display: none;">
+        <source src="iquique-s.mp4" type="video/mp4">
+    </video>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="../js/jquery-3.5.1.slim.min.js"></script>
+    <script src="../js/script.js"></script>   
+    <script>window.jQuery || document.write('<script src="../js/jquery-slim.min.js"><\/script>')</script>
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/holder.min.js"></script>
+
+    <script type="module">
+
+        import * as THREE from './build/three.module.js';
+
+        import { OrbitControls } from './jsm/controls/OrbitControls.js';
+        import { GLTFLoader } from './jsm/loaders/GLTFLoader.js';
+        import { DRACOLoader } from './jsm/loaders/DRACOLoader.js';
+        import { RGBELoader } from './jsm/loaders/RGBELoader.js';
+        import { RoughnessMipmapper } from './jsm/utils/RoughnessMipmapper.js';
+
+
+
+        
+
+            var canvas, stats, controls;
+            var video, audio, videotexture, material;
+            var camera, scene, renderer;
+
+            window.onload = function() {
+
+                init();
+                animate();
+            };
+
+            function init() {
+
+            canvas = document.createElement( 'div' );
+            var elem = document.getElementById('canvas');
+            elem.appendChild( canvas );
+
+            camera = new THREE.PerspectiveCamera( 45, window.innerWidth / window.innerHeight, 0.25, 20 );
+            camera.position.set( 7, 4, 7 );
+
+            scene = new THREE.Scene();
+
+            video = document.getElementById( 'valparaiso-tsunami' );
+
+
+            videotexture = new THREE.VideoTexture( video );
+
+            videotexture.format = THREE.RGBFormat;
+            videotexture.encoding = THREE.sRGBEncoding;
+            videotexture.wrapS = videotexture.wrapT = THREE.ClampToEdgeWrapping;
+            videotexture.magFilter = THREE.LinearFilter;
+            videotexture.mapping = THREE.EquirectangularReflectionMapping;
+
+            var materialVideo = new THREE.MeshBasicMaterial( { map: videotexture } )
+
+
+            new RGBELoader()
+                .setDataType( THREE.UnsignedByteType )
+                .setPath( 'textures/equirectangular/' )
+                .load( 'spot1Lux.hdr', function ( texture ) {
+
+                    var envMap = pmremGenerator.fromEquirectangular( texture ).texture;
+                    pmremGenerator.dispose();
+                    
+                    scene.environment = envMap;
+
+                    // model
+
+                    var roughnessMipmapper = new RoughnessMipmapper( renderer );
+
+                    // Instantiate a loader
+                    var loader = new GLTFLoader();
+
+                    // Optional: Provide a DRACOLoader instance to decode compressed mesh data
+                    var dracoLoader = new DRACOLoader();
+                    dracoLoader.setDecoderPath( './js/libs/draco/' );
+                    loader.setDRACOLoader( dracoLoader );
+
+                    // Load a glTF resource
+                    loader.load(
+                        // resource URL
+                        'models/gltf/Tsunami/valparaiso.gltf',
+                        // called when the resource is loaded
+                        function ( gltf ) {
+
+                            gltf.scene.children[0].material = materialVideo;
+                            scene.add( gltf.scene );
+
+                            var mesh = gltf.scene;
+
+                            gltf.animations; // Array<THREE.AnimationClip>
+                            gltf.scene; // THREE.Group
+                            gltf.scenes; // Array<THREE.Group>
+                            gltf.cameras; // Array<THREE.Camera>
+                            gltf.asset; // Object
+
+                        },
+                        // called while loading is progressing
+                        function ( xhr ) {
+
+                            console.log( ( xhr.loaded / xhr.total * 100 ) + '% loaded' );
+
+                        },
+                        // called when loading has errors
+                        function ( error ) {
+
+                            console.log( 'An error happened' );
+
+                        }
+                    );
+
+
+                } );
+
+            renderer = new THREE.WebGLRenderer( { antialias: true , alpha: true} );
+            renderer.setPixelRatio( window.devicePixelRatio );
+            renderer.setSize( window.innerWidth, window.innerHeight );
+            renderer.toneMapping = THREE.ACESFilmicToneMapping;
+            renderer.outputEncoding = THREE.sRGBEncoding;
+            canvas.appendChild( renderer.domElement );
+
+            var pmremGenerator = new THREE.PMREMGenerator( renderer );
+            pmremGenerator.compileEquirectangularShader();
+
+            controls = new OrbitControls( camera, renderer.domElement );
+            controls.target.set( -0.5, -0.5, - 0.2 );
+            controls.enableDamping = false;
+            controls.dampingFactor = 0.1;
+            controls.rotateSpeed = 0.2;
+            controls.zoomSpeed = 0.5;
+            controls.panSpeed = 0.3;
+            controls.maxDistance = 5; 
+            controls.minDistance = 2; 
+            controls.maxPolarAngle = 1.1; 
+            controls.minPolarAngle  = -1.1; 
+            camera.position.set( 100, 35, 145 );
+
+            function myFunction(x) {
+            if (x.matches) { // If media query matches
+
+                controls.maxDistance = 15; 
+                controls.minDistance = 9; 
+                controls.update();
+                camera.position.set( 8, 8, 8 );
+            } else {
+                controls.update();
+            }
+            }
+
+            var x = window.matchMedia("(max-width: 700px)")
+            myFunction(x) // Call listener function at run time
+            x.addListener(myFunction) // Attach listener function on state changes
+
+
+
+            window.addEventListener( 'resize', onWindowResize, false );
+
+
+
+            }
+
+            function onWindowResize() {
+            camera.aspect = window.innerWidth / window.innerHeight;
+            camera.updateProjectionMatrix();
+            renderer.setSize( window.innerWidth, window.innerHeight );
+            }
+
+            //
+
+            function animate() {
+
+            requestAnimationFrame( animate );
+
+            renderer.render( scene, camera );
+
+
+            }
+
+        
+
+        $( ".click-cartagena" ).click(function() {    
+
+            
+
+            if ($( "#canvas-cartagena" ).hasClass( "cargado" ) == false) {
+            
+
+            var canvas, stats, controls;
+            var video, audio, videotexture, material;
+            var camera, scene, renderer;
+
+            init();
+            animate();
+
+            function init() {
+
+            canvas = document.createElement( 'div' );
+            var elem = document.getElementById('canvas-cartagena');
+            $( "#canvas-cartagena" ).addClass( "cargado" );
+            elem.appendChild( canvas );
+
+            camera = new THREE.PerspectiveCamera( 45, window.innerWidth / window.innerHeight, 0.25, 20 );
+            camera.position.set( 7, 4, 7 );
+
+            scene = new THREE.Scene();
+
+            video = document.getElementById( 'cartagena-tsunami' );
+
+
+            videotexture = new THREE.VideoTexture( video );
+
+            videotexture.format = THREE.RGBFormat;
+            videotexture.encoding = THREE.sRGBEncoding;
+            videotexture.wrapS = videotexture.wrapT = THREE.ClampToEdgeWrapping;
+            videotexture.magFilter = THREE.LinearFilter;
+            videotexture.mapping = THREE.EquirectangularReflectionMapping;
+
+            var materialVideo = new THREE.MeshBasicMaterial( { map: videotexture } )
+
+
+            new RGBELoader()
+                .setDataType( THREE.UnsignedByteType )
+                .setPath( 'textures/equirectangular/' )
+                .load( 'spot1Lux.hdr', function ( texture ) {
+
+                    var envMap = pmremGenerator.fromEquirectangular( texture ).texture;
+                    pmremGenerator.dispose();
+                    
+                    scene.environment = envMap;
+
+                    // model
+
+                    var roughnessMipmapper = new RoughnessMipmapper( renderer );
+
+                    // Instantiate a loader
+                    var loader = new GLTFLoader();
+
+                    // Optional: Provide a DRACOLoader instance to decode compressed mesh data
+                    var dracoLoader = new DRACOLoader();
+                    dracoLoader.setDecoderPath( './js/libs/draco/' );
+                    loader.setDRACOLoader( dracoLoader );
+
+                    // Load a glTF resource
+                    loader.load(
+                        // resource URL
+                        'models/gltf/Tsunami/cartagena.gltf',
+                        // called when the resource is loaded
+                        function ( gltf ) {
+
+                            gltf.scene.children[0].material = materialVideo;
+                            scene.add( gltf.scene );
+
+                            var mesh = gltf.scene;
+
+                            gltf.animations; // Array<THREE.AnimationClip>
+                            gltf.scene; // THREE.Group
+                            gltf.scenes; // Array<THREE.Group>
+                            gltf.cameras; // Array<THREE.Camera>
+                            gltf.asset; // Object
+
+                        },
+                        // called while loading is progressing
+                        function ( xhr ) {
+
+                            console.log( ( xhr.loaded / xhr.total * 100 ) + '% loaded' );
+
+                        },
+                        // called when loading has errors
+                        function ( error ) {
+
+                            console.log( 'An error happened' );
+
+                        }
+                    );
+
+
+                } );
+
+            renderer = new THREE.WebGLRenderer( { antialias: true , alpha: true} );
+            renderer.setPixelRatio( window.devicePixelRatio );
+            renderer.setSize( window.innerWidth, window.innerHeight );
+            renderer.toneMapping = THREE.ACESFilmicToneMapping;
+            renderer.outputEncoding = THREE.sRGBEncoding;
+            canvas.appendChild( renderer.domElement );
+
+            var pmremGenerator = new THREE.PMREMGenerator( renderer );
+            pmremGenerator.compileEquirectangularShader();
+
+            controls = new OrbitControls( camera, renderer.domElement );
+            controls.target.set( 0, 1, 3 );
+            controls.enableDamping = false;
+            controls.dampingFactor = 0.1;
+            controls.rotateSpeed = 0.2;
+            controls.zoomSpeed = 0.5;
+            controls.panSpeed = 0.3;
+            controls.maxDistance = 4; 
+            controls.minDistance = 1; 
+            controls.maxPolarAngle = 1.1; 
+            controls.minPolarAngle  = -1.1; 
+            camera.position.set( -200, 35, 145 );
+
+            function myFunction(x) {
+            if (x.matches) { // If media query matches
+
+                controls.maxDistance = 15; 
+                controls.minDistance = 9; 
+                controls.update();
+                camera.position.set( 8, 8, 8 );
+            } else {
+                controls.update();
+            }
+            }
+
+            var x = window.matchMedia("(max-width: 700px)")
+            myFunction(x) // Call listener function at run time
+            x.addListener(myFunction) // Attach listener function on state changes
+
+
+
+            window.addEventListener( 'resize', onWindowResize, false );
+
+
+
+            }
+
+            function onWindowResize() {
+            camera.aspect = window.innerWidth / window.innerHeight;
+            camera.updateProjectionMatrix();
+            renderer.setSize( window.innerWidth, window.innerHeight );
+            }
+
+            //
+
+            function animate() {
+
+            requestAnimationFrame( animate );
+
+            renderer.render( scene, camera );
+
+
+            }
+            }
+            else{
+                return
+            }
+
+            });
+
+            $( ".click-talcahuano" ).click(function() {    
+
+            if ($( "#canvas-talcahuano" ).hasClass( "cargado" ) == false) {
+
+            var canvas, stats, controls;
+            var video, audio, videotexture, material;
+            var camera, scene, renderer;
+
+            init();
+            animate();
+
+            function init() {
+
+            canvas = document.createElement( 'div' );
+            var elem = document.getElementById('canvas-talcahuano');
+            $( "#canvas-talcahuano" ).addClass( "cargado" );
+            elem.appendChild( canvas );
+
+            camera = new THREE.PerspectiveCamera( 45, window.innerWidth / window.innerHeight, 0.25, 20 );
+            camera.position.set( 7, 4, 7 );
+
+            scene = new THREE.Scene();
+
+            video = document.getElementById( 'talcahuano-tsunami' );
+
+
+            videotexture = new THREE.VideoTexture( video );
+
+            videotexture.format = THREE.RGBFormat;
+            videotexture.encoding = THREE.sRGBEncoding;
+            videotexture.wrapS = videotexture.wrapT = THREE.ClampToEdgeWrapping;
+            videotexture.magFilter = THREE.LinearFilter;
+            videotexture.mapping = THREE.EquirectangularReflectionMapping;
+
+            var materialVideo = new THREE.MeshBasicMaterial( { map: videotexture } )
+
+
+            new RGBELoader()
+                .setDataType( THREE.UnsignedByteType )
+                .setPath( 'textures/equirectangular/' )
+                .load( 'spot1Lux.hdr', function ( texture ) {
+
+                    var envMap = pmremGenerator.fromEquirectangular( texture ).texture;
+                    pmremGenerator.dispose();
+                    
+                    scene.environment = envMap;
+
+                    // model
+
+                    var roughnessMipmapper = new RoughnessMipmapper( renderer );
+
+                    // Instantiate a loader
+                    var loader = new GLTFLoader();
+
+                    // Optional: Provide a DRACOLoader instance to decode compressed mesh data
+                    var dracoLoader = new DRACOLoader();
+                    dracoLoader.setDecoderPath( './js/libs/draco/' );
+                    loader.setDRACOLoader( dracoLoader );
+
+                    // Load a glTF resource
+                    loader.load(
+                        // resource URL
+                        'models/gltf/Tsunami/talcahuano.gltf',
+                        // called when the resource is loaded
+                        function ( gltf ) {
+
+                            gltf.scene.children[0].material = materialVideo;
+                            scene.add( gltf.scene );
+
+                            var mesh = gltf.scene;
+
+                            gltf.animations; // Array<THREE.AnimationClip>
+                            gltf.scene; // THREE.Group
+                            gltf.scenes; // Array<THREE.Group>
+                            gltf.cameras; // Array<THREE.Camera>
+                            gltf.asset; // Object
+
+                        },
+                        // called while loading is progressing
+                        function ( xhr ) {
+
+                            console.log( ( xhr.loaded / xhr.total * 100 ) + '% loaded' );
+
+                        },
+                        // called when loading has errors
+                        function ( error ) {
+
+                            console.log( 'An error happened' );
+
+                        }
+                    );
+
+
+                } );
+
+            renderer = new THREE.WebGLRenderer( { antialias: true , alpha: true} );
+            renderer.setPixelRatio( window.devicePixelRatio );
+            renderer.setSize( window.innerWidth, window.innerHeight );
+            renderer.toneMapping = THREE.ACESFilmicToneMapping;
+            renderer.outputEncoding = THREE.sRGBEncoding;
+            canvas.appendChild( renderer.domElement );
+
+            var pmremGenerator = new THREE.PMREMGenerator( renderer );
+            pmremGenerator.compileEquirectangularShader();
+
+            controls = new OrbitControls( camera, renderer.domElement );
+            controls.target.set( -0.5, -2, - 0.2 );
+            controls.enableDamping = false;
+            controls.dampingFactor = 0.1;
+            controls.rotateSpeed = 0.2;
+            controls.zoomSpeed = 0.5;
+            controls.panSpeed = 0.3;
+            controls.maxDistance = 10; 
+            controls.minDistance = 5; 
+            controls.maxPolarAngle = 1.1; 
+            controls.minPolarAngle  = -1.1; 
+            camera.position.set( -100, 35, 145 );
+
+            function myFunction(x) {
+            if (x.matches) { // If media query matches
+
+                controls.maxDistance = 15; 
+                controls.minDistance = 9; 
+                controls.update();
+                camera.position.set( 8, 8, 8 );
+            } else {
+                controls.update();
+            }
+            }
+
+            var x = window.matchMedia("(max-width: 700px)")
+            myFunction(x) // Call listener function at run time
+            x.addListener(myFunction) // Attach listener function on state changes
+
+
+
+            window.addEventListener( 'resize', onWindowResize, false );
+
+
+
+            }
+
+            function onWindowResize() {
+            camera.aspect = window.innerWidth / window.innerHeight;
+            camera.updateProjectionMatrix();
+            renderer.setSize( window.innerWidth, window.innerHeight );
+            }
+
+            //
+
+            function animate() {
+
+            requestAnimationFrame( animate );
+
+            renderer.render( scene, camera );
+
+
+            }
+            }
+            else{
+                return
+            }
+            });
+
+            $( ".click-iquique" ).click(function() {    
+
+            if ($( "#canvas-iquique" ).hasClass( "cargado" ) == false) {
+
+            var canvas, stats, controls;
+            var video, audio, videotexture, material;
+            var camera, scene, renderer;
+
+            init();
+            animate();
+
+            function init() {
+
+            canvas = document.createElement( 'div' );
+            var elem = document.getElementById('canvas-iquique');
+            $( "#canvas-iquique" ).addClass( "cargado" );
+            elem.appendChild( canvas );
+
+            camera = new THREE.PerspectiveCamera( 45, window.innerWidth / window.innerHeight, 0.25, 20 );
+            camera.position.set( 7, 4, 7 );
+
+            scene = new THREE.Scene();
+
+            video = document.getElementById( 'iquique-tsunami' );
+
+
+            videotexture = new THREE.VideoTexture( video );
+
+            videotexture.format = THREE.RGBFormat;
+            videotexture.encoding = THREE.sRGBEncoding;
+            videotexture.wrapS = videotexture.wrapT = THREE.ClampToEdgeWrapping;
+            videotexture.magFilter = THREE.LinearFilter;
+            videotexture.mapping = THREE.EquirectangularReflectionMapping;
+
+            var materialVideo = new THREE.MeshBasicMaterial( { map: videotexture } )
+
+
+            new RGBELoader()
+                .setDataType( THREE.UnsignedByteType )
+                .setPath( 'textures/equirectangular/' )
+                .load( 'spot1Lux.hdr', function ( texture ) {
+
+                    var envMap = pmremGenerator.fromEquirectangular( texture ).texture;
+                    pmremGenerator.dispose();
+                    
+                    scene.environment = envMap;
+
+                    // model
+
+                    var roughnessMipmapper = new RoughnessMipmapper( renderer );
+
+                    // Instantiate a loader
+                    var loader = new GLTFLoader();
+
+                    // Optional: Provide a DRACOLoader instance to decode compressed mesh data
+                    var dracoLoader = new DRACOLoader();
+                    dracoLoader.setDecoderPath( './js/libs/draco/' );
+                    loader.setDRACOLoader( dracoLoader );
+
+                    // Load a glTF resource
+                    loader.load(
+                        // resource URL
+                        'models/gltf/Tsunami/iquique.gltf',
+                        // called when the resource is loaded
+                        function ( gltf ) {
+
+                            gltf.scene.children[0].material = materialVideo;
+                            scene.add( gltf.scene );
+
+                            var mesh = gltf.scene;
+
+                            gltf.animations; // Array<THREE.AnimationClip>
+                            gltf.scene; // THREE.Group
+                            gltf.scenes; // Array<THREE.Group>
+                            gltf.cameras; // Array<THREE.Camera>
+                            gltf.asset; // Object
+
+                        },
+                        // called while loading is progressing
+                        function ( xhr ) {
+
+                            console.log( ( xhr.loaded / xhr.total * 100 ) + '% loaded' );
+
+                        },
+                        // called when loading has errors
+                        function ( error ) {
+
+                            console.log( 'An error happened' );
+
+                        }
+                    );
+
+
+                } );
+
+            renderer = new THREE.WebGLRenderer( { antialias: true , alpha: true} );
+            renderer.setPixelRatio( window.devicePixelRatio );
+            renderer.setSize( window.innerWidth, window.innerHeight );
+            renderer.toneMapping = THREE.ACESFilmicToneMapping;
+            renderer.outputEncoding = THREE.sRGBEncoding;
+            canvas.appendChild( renderer.domElement );
+
+            var pmremGenerator = new THREE.PMREMGenerator( renderer );
+            pmremGenerator.compileEquirectangularShader();
+
+            controls = new OrbitControls( camera, renderer.domElement );
+            controls.target.set( -0.5, -0.5, 2 );
+            controls.enableDamping = false;
+            controls.dampingFactor = 0.1;
+            controls.rotateSpeed = 0.2;
+            controls.zoomSpeed = 0.5;
+            controls.panSpeed = 0.3;
+            controls.maxDistance = 6; 
+            controls.minDistance = 3; 
+            controls.maxPolarAngle = 1.1; 
+            controls.minPolarAngle  = -1.1; 
+            camera.position.set( -100, 35, 145 );
+
+            function myFunction(x) {
+            if (x.matches) { // If media query matches
+
+                controls.maxDistance = 15; 
+                controls.minDistance = 9; 
+                controls.update();
+                camera.position.set( 8, 8, 8 );
+            } else {
+                controls.update();
+            }
+            }
+
+            var x = window.matchMedia("(max-width: 700px)")
+            myFunction(x) // Call listener function at run time
+            x.addListener(myFunction) // Attach listener function on state changes
+
+
+
+            window.addEventListener( 'resize', onWindowResize, false );
+
+
+
+            }
+
+            function onWindowResize() {
+            camera.aspect = window.innerWidth / window.innerHeight;
+            camera.updateProjectionMatrix();
+            renderer.setSize( window.innerWidth, window.innerHeight );
+            }
+
+            //
+
+            function animate() {
+
+            requestAnimationFrame( animate );
+
+            renderer.render( scene, camera );
+
+
+            }
+            }
+            else{
+                return
+            }
+            });
+
+    
+
+    var video = document.getElementById( 'valparaiso-tsunami' );
+    video.play();
+    var video = document.getElementById( 'cartagena-tsunami' );
+    video.play();
+    var video = document.getElementById( 'talcahuano-tsunami' );
+    video.play();
+    var video = document.getElementById( 'iquique-tsunami' );
+    video.play();
+    </script>
+
+  
+
+</body></html>

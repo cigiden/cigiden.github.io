@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+
+<html lang="en"><link type="text/css" rel="stylesheet" id="dark-mode-general-link"><link type="text/css" rel="stylesheet" id="dark-mode-custom-link"><style type="text/css" id="dark-mode-custom-style"></style><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="apple-touch-icon" sizes="57x57" href="../apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="../apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="../apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="../apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="../apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="../apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="../apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="../apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="../android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="../favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
+    <link rel="manifest" href="../manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="../ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <title>Muestra virtual tridimensional - Territorio en Movimiento</title>
+
+    
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/product/">
+
+    <!-- Bootstrap core CSS -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles -->
+    <link href="../css/style.css" rel="stylesheet">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-QSJSBMJMNR"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-QSJSBMJMNR');
+    </script>
+</head>
+
+  <body>
+
+
+    <div class="bg-azul-2 position-relative text-center my-auto">
+        <div class="container position-relative">
+            <div class="row container padding-right">
+                <div class="col-6">
+                    <div class="row my-5 mr-3 home-link">
+                        <div style="padding-left: 0px !important; padding-right: 20px !important;" class="col-sm-4">
+                            <img class="img-fluid my-auto" src="../img/logo.svg" alt="Logotipo">
+                        </div>
+                        <div class="col-sm-8 text-left text-white my-auto">
+                            <div class="row">
+                                <h2>¡CHILE, TERRITORIO EN MOVIMIENTO!</h2>
+                            </div>
+                            <div class="row">
+                                <h3>Terremotos, tsunamis, aluviones, volcanes y otras amenazas</h3>
+                            </div>
+                        </div>
+                        <a href="../"></a>
+                    </div>
+                </div>
+                <div class="col-6 my-auto menu-derecha text-right">
+                    <ul class="list-group texto-blanco">
+                        <a href="../" class="list-group-item list-group-item-action">Inicio</a>
+                        <a href="../about" class="list-group-item list-group-item-action">Proyecto</a>
+                        <a href="../contacto" class="list-group-item list-group-item-action">Contacto</a>
+                    </ul>
+                </div>
+
+                <div class="row ml-5 mb-5 mr-3 text-white text-center">
+                  <div class="col-sm-6 my-auto">
+                          <h1 style="font-size: 1rem !important;" class="my-auto">Experimenta, conoce y aprende con los simuladores 3D de CIGIDEN</h1>
+                  </div>
+                  <div class="col-sm-6 my-auto dropdown-menu-sec">
+                      <div class="dropdown show text-center ">
+                          <a class="btn btn-secondary dropdown-toggle naranjo px-5 py-3 simulaciones-boton" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              Simulaciones
+                          </a>
+                          
+                          <div class="dropdown-menu experimenta-conoce-menu" aria-labelledby="dropdownMenuLink">
+                            <a class="dropdown-item" href="../mapa-interactivo/">Mapa digital de amenazas y desastres</a>
+                            <a class="dropdown-item" href="../multiamenaza/">Chile territorio vulnerable y expuesto</a>
+                            <a class="dropdown-item" href="../tsunamilab/">Tsunami, un fenómeno global</a>
+                            <a class="dropdown-item" href="../tsunami3d/">Inundación por Tsunami</a>
+                            <a class="dropdown-item" href="../aluviones/">Riesgo de aluviones</a>
+                            <a class="dropdown-item" href="../volcanes/">Erupciones volcánicas y lahares</a> 
+                            <a class="dropdown-item" href="../muestravirtual/">Muestra virtual tridimensional</a>
+                          </div>
+                      </div>   
+                  </div>
+
+              </div>
+
+            </div>
+            
+        </div>
+    </div>
+
+
+
+ <div class="container position-relative overflow-hidden">
+  <div class="row my-3 mx-1">
+    
+            <div class="col-sm-12 my-5 titulo p-descripcion ">
+                    <h1>Módulo 6: Muestra virtual tridimensional</h1>
+                    <p class="my-3">Muestra Virtual Interactiva que expone a través de simulaciones computacionales proyectadas sobre maquetas 3D y a escala de diferentes lugares de Chile, cómo Antofagasta, Valparaíso y Villarrica. Podrás recorrer y visitar cada una de las simulaciones de Terremotos, Tsunamis, Aluviones y Erupciones Volcánicas, que han afectado a las diferentes regiones del país.</p>
+                      <!-- IMAGEN MUESTRA -->
+                        <img class="img-fluid mt-3 mb-5 muestra-virtual" src="../img/muestra.jpg" alt="">
+
+                        <iframe class="" id="muestra-virtual-descarga" src="https://docs.google.com/forms/d/e/1FAIpQLSfM8yMx92SvL2h7KwC89uLYnGhA2YzUCdnd8pF7sJ3qkK9_jg/viewform?embedded=true" width="100%" height="450" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
+
+            <h2 class="my-4">
+              Requerimientos recomendados:
+            </h2>
+
+            <ul class="requerimientos">
+              <h4 class="mt-4">Windows:</h4>
+              <li>OS Windows 7/8/10 64-bit</li>
+              <li>Procesador Quad-Core Intel o AMD, 2.5 GHz</li>
+              <li>RAM 4 GB de RAM en sistema</li>
+              <li>DirectX 11</li>
+<!-- 
+              <h4 class="mt-4">Mac OS:</h4>
+              <li>MacOS Mojave 10.14.6</li>
+              <li>Intel HD Graphic 5000</li>
+              <li>RAM 4 GB de RAM en sistema</li>
+              <li>DirectX 11</li> -->
+            </ul>
+
+            <p class="mt-5">
+              Luego de obtener link de acceso a través del <span class="text-bold muestra-virtual">formulario</span> podrás acceder a descargar la muestra virtual.</p>
+            <p>
+              Para <span class="text-bold texto-naranjo">Windows</span>, se iniciará automáticamente la descarga de un archivo comprimido <span class="text-bold muestra-virtual">Muestra_Virtual.rar</span>. Para tener acceso a la muestra se deberá descomprimir el archivo e iniciar la muestra virtual a través del ejecutable <span class="text-bold muestra-virtual">Muestra_Virtual.exe</span> que se encuentra al interior de la carpeta descargada.
+            </p>
+            <p>
+              <!-- Para <span class="text-bold texto-naranjo">Mac OS</span>, se iniciará automáticamente la descarga del archivo <span class="text-bold muestra-virtual">Muestra_Virtual.zip</span>. Para tener acceso a la muestra se deberá ejecutar el archivo e iniciar la muestra virtual a través del ejecutable <span class="text-bold muestra-virtual">Muestra_Virtual.app</span> que se encuentra dentro de la carpeta.
+            </p> -->
+ 
+
+            </div>
+            <div id="muestra-1" class="container p-descripcion mb-5">
+
+                <!-- <div class="col-sm-12"><iframe src="https://portal.furioos.com/embed/963.058?whiteLabel=true&hideTitle=true&autoRun=true" width="100%" height="600px" allowfullscreen="true" style="border: none;"></iframe>
+                </div> -->
+                
+                <video class="mt-3" width="100%" height="auto" controls style="outline: none;" controlsList="nofullscreen nodownload noremoteplayback">
+                  <source src="video-muestra.m4v" type="video/mp4">                    
+              </video>
+
+              <h1 class="my-5">Recorrido Virtual:</h1>
+              <h1>¡Disponible en nuestros próximos eventos!</h1>
+            </div>
+
+            <div class="container p-descripcion mb-5">
+                <div id="febrero-card" class="card mt-5">
+
+                    <div class="card-header font-weight-bold">
+                      Febrero
+                    </div>
+
+                    <div class="row mx-2 my-3">
+
+                        <div class="col-sm-6">
+                          <div class="card">
+                            <div class="card-body">
+                              <h5 class="card-title">¡Chile, territorio en movimiento! Talcahuano / Lanzamiento oficial </h5>
+                              <p class="card-text"><p class="font-weight-bold">Fecha: </p>Sábado 27 de febrero, conmemoración 27F - 11 años.</p>
+                              <p class="card-text"><p class="font-weight-bold">Entidad asociada: </p>Municipalidad de Talcahuano y UCSC.</p>
+                              <p class="card-text"><p class="font-weight-bold">Actividad lanzamiento: </p>Conversatorio científico ciudadano: Diálogo entre tomadores de decisión, científicos y dirigentes sociales en torno a la gestión del riesgo y escenarios sísmicos y de tsunamis en Talcahuano.</p>
+                              <p class="card-text"><p class="font-weight-bold">Participantes: </p>Alcalde o representante de Municipalidad Talcahuano, investigadores CIGIDEN (Rafael Aránguiz y Roberto Benavente) y representantes de junta de vecinos.</p>
+                              <a href="./¡Chile, territorio en movimiento! Talcahuano  Lanzamiento oficial.ics" class="btn btn-primary ">Generar Recordatorio</a>
+                            </div>
+                          </div>
+                        </div>
+
+                      </div>
+                  </div>
+
+                  <div id="marzo-card" class="card mt-5">
+                    
+                    <div class="card-header font-weight-bold">
+                      Marzo 
+                    </div>
+
+                    <div class="row mx-2 my-3">
+
+                        <div class="col-sm-6">
+                          <div class="card">
+                            <div class="card-body">
+                              <h5 class="card-title">¡Chile, territorio en movimiento! Cartagena</h5>
+                              <p class="card-text"><p class="font-weight-bold">Fecha:</p>Miércoles 3 de marzo, conmemoración del terremoto de 1985.</p>
+                              <p class="card-text"><p class="font-weight-bold">Entidad asociada:</p>Municipalidad de Cartagena (DAEM) y la USM.</p>
+                              <p class="card-text"><p class="font-weight-bold">Actividad lanzamiento regional:</p>Conversatorio científico ciudadano: Diálogo entre tomadores de decisión, científicos y dirigentes sociales en torno a la gestión del riesgo y escenarios sísmicos y de inundación por tsunamis en Cartagena.</p>
+                              <p class="card-text"><p class="font-weight-bold">Participantes: </p>Alcalde o representante de Municipalidad de Cartagena, investigadores CIGIDEN (Patricio Catalán y Alejandra Gubler), Profesores de colegios o encargado DAEM municipal.</p>
+                              <a href="./¡Chile, territorio en movimiento! Cartagena.ics" class="btn btn-primary ">Generar Recordatorio</a>
+                            </div>
+                          </div>
+                        </div>
+
+                      </div>
+                  </div>
+
+
+                  <div id="abril-card" class="card mt-5">
+                    
+                    <div class="card-header font-weight-bold">
+                        Abril 
+                    </div>
+
+                    <div class="row mx-2 my-3">
+
+                        <div class="col-sm-6">
+                          <div class="card">
+                            <div class="card-body">
+                              <h5 class="card-title">¡Chile, territorio en movimiento! Iquique</h5>
+                              <p class="card-text"><p class="font-weight-bold">Fecha: </p>Jueves 1 de abril conmemoración terremoto y tsunamis de 2014.</p>
+                              <p class="card-text"><p class="font-weight-bold">Entidad asociada: </p>Municipalidad de Iquique y la UCN.</p>
+                              <p class="card-text"><p class="font-weight-bold">Actividad lanzamiento regional: </p>Conversatorio científico ciudadano: Diálogo entre tomadores de decisión, científicos y dirigentes sociales en torno a la gestión del riesgo y escenarios sísmicos y de tsunamis en Iquique.</p>
+                              <p class="card-text"><p class="font-weight-bold">Participantes: </p>Alcalde o representante de Municipalidad de Iquique, investigadores CIGIDEN (Juan González y Gabriel González), profesores de colegios o encargado DAEM municipal, y otros.</p>
+                              <a href="./¡Chile, territorio en movimiento! Iquique.ics" class="btn btn-primary ">Generar Recordatorio</a>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="col-sm-6">
+                            <div class="card">
+                              <div class="card-body">
+                                <h5 class="card-title">¡Chile, territorio en movimiento! Antofagasta</h5>
+                                <p class="card-text"><p class="font-weight-bold">Fecha: </p>12 y 18 de abril Paseo de la Ciencia de Puerto de Ideas virtual.</p>
+                                <p class="card-text"><p class="font-weight-bold">Entidad asociada: </p>Puerto de Ideas y UCN.</p>
+                                <p class="card-text"><p class="font-weight-bold">Actividad lanzamiento regional: </p>Taller participativo lanzamiento de la muestra ¡Chile, territorio en movimiento! en Paseo de la Ciencia del Festival Puerto de Ideas.</p>
+                                <p class="card-text"><p class="font-weight-bold">Participantes: </p>Alcalde o representante de la Municipalidad de Antofagasta, investigadores CIGIDEN (Francisca Roldan  y Susana Layana), representante Puerto de Ideas, profesores de colegios o encargado DAEM municipal.</p>
+                                <a href="./¡Chile, territorio en movimiento! Antofagasta.ics" class="btn btn-primary ">Generar Recordatorio</a>
+                              </div>
+                            </div>
+                          </div>
+
+                      </div>
+                  </div>
+
+                  <div id="mayo-card" class="card mt-5">
+                    
+                    <div class="card-header font-weight-bold">
+                      Mayo
+                    </div>
+
+                    <div class="row mx-2 my-3">
+
+                        <div class="col-sm-6">
+                          <div class="card">
+                            <div class="card-body">
+                              <h5 class="card-title">¡Chile, territorio en movimiento! Región Metropolitana</h5>
+                              <p class="card-text"><p class="font-weight-bold">Fecha: </p>Lunes 3 de mayo, conmemoración del aluvión de Quebrada de Macul.</p>
+                              <p class="card-text"><p class="font-weight-bold">Entidad asociada: </p>Municipalidad de La Florida y UC.</p>
+                              <p class="card-text"><p class="font-weight-bold">Actividad lanzamiento regional: </p>Conversatorio científico ciudadano: Diálogo entre tomadores de decisión, científicos y dirigentes sociales en torno a la gestión del riesgo y escenarios de aluviones.</p>
+                              <p class="card-text"><p class="font-weight-bold">Participantes: </p>Alcalde o representante de la Municipalidad de La Florida, investigadores CIGIDEN (Jorge Gironás, Francisca Roldan y Leila Juzam), representantes de la comunidad organizada en tomas y otros.</p>
+                              <a href="./¡Chile, territorio en movimiento! Región Metropolitana.ics" class="btn btn-primary ">Generar Recordatorio</a>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="col-sm-6">
+                            <div class="card">
+                              <div class="card-body">
+                                <h5 class="card-title">¡Chile, territorio en movimiento! Valdivia</h5>
+                                <p class="card-text"><p class="font-weight-bold">Fecha: </p>22 de mayo, conmemoración Terremoto de Valdivia.</p>
+                                <p class="card-text"><p class="font-weight-bold">Entidad asociada: </p>Cyclos y Municipalidad de Valdivia.</p>
+                                <p class="card-text"><p class="font-weight-bold">Actividad lanzamiento regional: </p>Conversatorio científico ciudadano: Diálogo entre tomadores de decisión, científicos y dirigentes sociales en torno a la gestión del riesgo y escenarios de aluviones.</p>
+                                <p class="card-text"><p class="font-weight-bold">Participantes: </p>Alcalde de Valdivia, investigadores CIGIDEN (Felipe Aguilera y Patricio Winckler y/o Marcos Moreno), representante Cyclos.</p>
+                                <a href="./¡Chile, territorio en movimiento! Valdivia.ics" class="btn btn-primary ">Generar Recordatorio</a>
+                              </div>
+                            </div>
+                          </div>
+
+                      </div>
+                  </div>
+
+
+
+
+            </div>
+
+            
+        
+        </div>
+    </div>
+
+    </div>
+
+    <footer class="position-relative overflow-hidden text-center text-white">
+        <div class="row">
+          <div class="bg-rojo-footer col-sm-6 home-link">
+              <div class="row mx-5 my-5 ">
+                  <div class="col-sm-2 my-auto">
+                      <img class="img-fluid logo-white" src="../img/logo-white.svg" alt="Logotipo">
+                  </div>
+                  <div class="col-sm-4 text-left text-white my-auto footer-text">
+                      <div class="row">
+                          <h2>¡CHILE, TERRITORIO EN MOVIMIENTO!</h2>
+                      </div>
+                      <div class="row">
+                          <h3>Terremotos, tsunamis, aluviones, volcanes y otras amenazas</h3>
+                      </div>
+                  </div>
+                  <div class="col-sm-3 logo-footer">
+                    <img class="img-logo-fluid my-auto" src="../img/logo_cigiden.png" alt="Logotipo">
+                </div>
+                <div class="col-sm-3 logo-footer">
+                    <img class="img-logo-fluid my-auto" src="../img/logo_min.png" alt="Logotipo">
+                </div>
+                  <a href="#"></a>
+              </div>
+          </div>
+          <div class="col-sm-6 bg-amarillo-2">
+              <div class="row mx-5" style="height: 100%;">
+                  <div class="col-6 footer-text mt-2 my-auto">
+                      <div class="row social-media-txt">
+                          <h2>Contacto:</h2> 
+                          <h3 class="contacto"><a href="mailto:comunicaciones@cigiden.cl?Subject=Contacto%20Chile%20Territorio%20en%20Movimiento">comunicaciones@cigiden.cl</a></h3>
+                          <h2>Prensa:</h2> 
+                          <h3 class="contacto"><a href="mailto:debora.gutierrez@cigiden.cl?Subject=Prensa%20Chile%20Territorio%20en%20Movimiento">debora.gutierrez@cigiden.cl</a></h3>
+                      </div>       
+                  </div>
+                  <div class="col-6 footer-text mt-2 my-auto">
+                      <div class="row" >
+                          <h2 style="width: 100%; text-align: center;">¡Síguenos!</h2> 
+                      </div>   
+                      <div class="row">
+                          <div class="col-12">
+                              <a href="https://www.instagram.com/explore/tags/chileterritorioenmovimiento/" target="_blank"><img class="social-media" src="../img/ig.svg" alt=""></a>
+                              <a href="https://www.facebook.com/hashtag/chileterritorioenmovimiento" target="_blank"><img class="social-media" src="../img/fb.svg" alt=""></a>
+                              <a href="https://twitter.com/hashtag/Chileterritorioenmovimiento" target="_blank"><img class="social-media" src="../img/tw.svg" alt=""></a>              
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      </footer>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/script.js"></script>
+    <script>window.jQuery || document.write('<script src="../js/jquery-slim.min.js"><\/script>')</script>
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/holder.min.js"></script>
+  
+
+</body></html>

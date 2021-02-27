@@ -1,0 +1,38 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ical.marudot.com//iCal Event Maker
+CALSCALE:GREGORIAN
+BEGIN:VTIMEZONE
+TZID:America/Asuncion
+TZURL:http://tzurl.org/zoneinfo-outlook/America/Asuncion
+X-LIC-LOCATION:America/Asuncion
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0300
+TZNAME:-03
+DTSTART:19701004T000000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0300
+TZOFFSETTO:-0400
+TZNAME:-04
+DTSTART:19700322T000000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=4SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20210104T170814Z
+UID:20210104T170814Z-1191279006@marudot.com
+DTSTART;VALUE=DATE:20210522
+DTEND;VALUE=DATE:20210523
+SUMMARY:¡Chile\, territorio en movimiento! Valdivia
+DESCRIPTION:Fecha: 22 de mayo\, conmemoración Terremoto de Valdivia.\nEntidad asociada: Cyclos y Municipalidad de Valdivia.\nActividad lanzamiento regional: Conversatorio científico ciudadano: Diálogo entre tomadores de decisión\, científicos y dirigentes sociales en torno a la gestión del riesgo y escenarios de aluviones\nParticipantes: Alcalde de Valdivia\, investigadores CIGIDEN (Felipe Aguilera y Patricio Winckler y/o Marcos Moreno)\, representante Cyclos\.
+LOCATION:Valdivia
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:¡Chile, territorio en movimiento! Valdivia
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

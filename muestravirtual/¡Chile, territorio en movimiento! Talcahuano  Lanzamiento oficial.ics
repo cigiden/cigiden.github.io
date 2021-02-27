@@ -1,0 +1,38 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ical.marudot.com//iCal Event Maker
+CALSCALE:GREGORIAN
+BEGIN:VTIMEZONE
+TZID:America/Asuncion
+TZURL:http://tzurl.org/zoneinfo-outlook/America/Asuncion
+X-LIC-LOCATION:America/Asuncion
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0300
+TZNAME:-03
+DTSTART:19701004T000000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0300
+TZOFFSETTO:-0400
+TZNAME:-04
+DTSTART:19700322T000000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=4SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20210104T163629Z
+UID:20210104T163629Z-1626018944@marudot.com
+DTSTART;VALUE=DATE:20210227
+DTEND;VALUE=DATE:20210228
+SUMMARY:¡Chile\, territorio en movimiento! Talcahuano / Lanzamiento oficial
+DESCRIPTION:Fecha: Sábado 27 de febrero\, conmemoración 27F - 11 años.\nEntidad asociada: Municipalidad de Talcahuano y UCSC.\nActividad lanzamiento: Conversatorio científico ciudadano: Diálogo entre tomadores de decisión\, científicos y dirigentes sociales en torno a la gestión del riesgo y escenarios sísmicos y de tsunamis en Talcahuano.\nParticipantes: Alcalde o representante de Municipalidad Talcahuano\, investigadores CIGIDEN (Rafael Aránguiz y Roberto Benavente) y representantes de junta de vecinos.
+LOCATION:Talcahuano
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:¡Chile, territorio en movimiento! Talcahuano / Lanzamiento oficial
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR
